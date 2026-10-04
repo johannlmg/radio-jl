@@ -1,0 +1,1078 @@
+{
+ "radiomap_plays": [
+  "/fr/play/ado",
+  "/fr/play/air-zen",
+  "/fr/play/arverne",
+  "/fr/play/autorouteinfo_ouest",
+  "/fr/play/bfm-business",
+  "/fr/play/bfm-radio",
+  "/fr/play/campus-clermont",
+  "/fr/play/chantefrance",
+  "/fr/play/chantier",
+  "/fr/play/cherie",
+  "/fr/play/classique",
+  "/fr/play/crooner",
+  "/fr/play/esperance",
+  "/fr/play/europe1",
+  "/fr/play/europe2",
+  "/fr/play/fg",
+  "/fr/play/francemaghreb2",
+  "/fr/play/fuego",
+  "/fr/play/fun",
+  "/fr/play/fusion",
+  "/fr/play/generations",
+  "/fr/play/jazz",
+  "/fr/play/kto",
+  "/fr/play/latina",
+  "/fr/play/logos_puydedome",
+  "/fr/play/m-radio",
+  "/fr/play/melody",
+  "/fr/play/nostalgie",
+  "/fr/play/nova",
+  "/fr/play/nrj",
+  "/fr/play/oui",
+  "/fr/play/rcf63",
+  "/fr/play/rf-culture",
+  "/fr/play/rf-fip",
+  "/fr/play/rf-ici_pays-d-auvergne",
+  "/fr/play/rf-info",
+  "/fr/play/rf-inter",
+  "/fr/play/rf-mouv",
+  "/fr/play/rf-musique",
+  "/fr/play/rfm",
+  "/fr/play/rireetchansons",
+  "/fr/play/rmc",
+  "/fr/play/rtl",
+  "/fr/play/rtl2",
+  "/fr/play/rva",
+  "/fr/play/scoop_clermont",
+  "/fr/play/skyrock",
+  "/fr/play/sud",
+  "/fr/play/totem",
+  "/fr/play/tsf-jazz",
+  "/fr/play/vinci_autoroutes5"
+ ],
+ "stations": {
+  "arverne": [
+   {
+    "url": "http://radioarverne.ice.infomaniak.ch/arverne.mp3",
+    "src": "http://fluxradios.blogspot.com/2014/07/flux-url-radio-arverne.html",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://radioarverne.ice.infomaniak.ch/arverne.mp3"
+   },
+   {
+    "url": "http://broadcast.infomaniak.net/arverne.mp3",
+    "src": "http://fluxradios.blogspot.com/2014/07/flux-url-radio-arverne.html",
+    "ok": false,
+    "ct": "<urlopen error [Errno -2] Name or service not known>",
+    "final": ""
+   },
+   {
+    "url": "http://broadcast.infomaniak.ch/arverne.mp3",
+    "src": "http://fluxradios.blogspot.com/2014/07/flux-url-radio-arverne.html",
+    "ok": false,
+    "ct": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+    "final": ""
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/arverne/arverne.mp3/playlist.m3u",
+    "src": "http://fluxradios.blogspot.com/2014/07/flux-url-radio-arverne.html",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Found",
+    "final": ""
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/arverne/arverne.mp3/playlist.pls",
+    "src": "http://fluxradios.blogspot.com/2014/07/flux-url-radio-arverne.html",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Found",
+    "final": ""
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/arverne/arverne.mp3/playlist.ram",
+    "src": "http://fluxradios.blogspot.com/2014/07/flux-url-radio-arverne.html",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Found",
+    "final": ""
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/arverne/arverne.mp3/playlist.asx",
+    "src": "http://fluxradios.blogspot.com/2014/07/flux-url-radio-arverne.html",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Found",
+    "final": ""
+   },
+   {
+    "url": "https://radioarverne.ice.infomaniak.ch/arverne.mp3",
+    "src": "https://radioenlignefrance.com/arverne",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://radioarverne.ice.infomaniak.ch/arverne.mp3"
+   },
+   {
+    "url": "https://stream.sctomp3.net/stream.php?url=http://icepe5.infomaniak.ch/arverne.mp3",
+    "src": "https://radiofrench.fr/ecouter/radio-arverne.html",
+    "ok": false,
+    "ct": "<urlopen error [Errno -2] Name or service not known>",
+    "final": ""
+   },
+   {
+    "url": "https://api.instant.audio/data/streams/37/arverne-gerzat",
+    "src": "https://ecouterradioenligne.com/arverne-gerzat/",
+    "ok": false,
+    "ct": "application/json; charset=utf-8",
+    "final": "https://api.instant.audio/data/streams/37/arverne-gerzat"
+   }
+  ],
+  "variance": [
+   {
+    "url": "http://radio.variancefm.com:8290/variance",
+    "src": "http://fluxradios.blogspot.com/2018/01/flux-url-variance-fm-france.html",
+    "ok": false,
+    "ct": "<urlopen error _ssl.c:983: The handshake operation timed out",
+    "final": ""
+   },
+   {
+    "url": "https://proxy-eu.webradio.tools/radio.variancefm.com:8290/variance",
+    "src": "https://variancefm.com/ecouter-en-ligne/",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://proxy-eu.webradio.tools/radio.variancefm.com:8290/variance"
+   },
+   {
+    "url": "https://proxy-eu.webradio.tools/radio.variancefm.com:8290/variancemusette",
+    "src": "https://variancefm.com/ecouter-en-ligne/",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://proxy-eu.webradio.tools/radio.variancefm.com:8290/variancemusette"
+   },
+   {
+    "url": "https://proxy-eu.webradio.tools/radio.variancefm.com:8000/variance",
+    "src": "https://www.radio.fr/s/variancefm",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://proxy-eu.webradio.tools/radio.variancefm.com:8000/variance"
+   }
+  ],
+  "rcf63": [
+   {
+    "url": "https://rcf.streamakaci.com/rcf63.mp3.m3u",
+    "src": "https://radiomap.eu/fr/play/rcf63",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://rcf.streamakaci.com/rcf63.mp3.m3u"
+   },
+   {
+    "url": "https://rcf.streamakaci.com/rcf63.mp3",
+    "src": "https://radiomap.eu/fr/play/rcf63",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://rcf.streamakaci.com/rcf63.mp3?_ic2=1791124127376"
+   },
+   {
+    "url": "http://rcf.streamakaci.com/rcf63.mp3",
+    "src": "http://fluxradios.blogspot.com/2014/06/flux-url-rcf-puy-de-dome.html",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://rcf.streamakaci.com/rcf63.mp3?_ic2=1791124127962"
+   }
+  ],
+  "rva": [
+   {
+    "url": "http://rva.ice.infomaniak.ch/rva-high.mp3",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://rva.ice.infomaniak.ch/rva-high.mp3"
+   },
+   {
+    "url": "http://broadcast.infomaniak.net/rva-high.mp3",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "<urlopen error [Errno -2] Name or service not known>",
+    "final": ""
+   },
+   {
+    "url": "http://broadcast.infomaniak.ch/rva-high.mp3",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+    "final": ""
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/rva/rva-high.mp3/playlist.m3u",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://statslive.infomaniak.ch/playlist/rva/rva-high.mp3/playlist.m3u"
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/rva/rva-high.mp3/playlist.pls",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "audio/x-scpls",
+    "final": "https://statslive.infomaniak.ch/playlist/rva/rva-high.mp3/playlist.pls"
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/rva/rva-high.mp3/playlist.ram",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "audio/x-pn-realaudio",
+    "final": "https://statslive.infomaniak.ch/playlist/rva/rva-high.mp3/playlist.ram"
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/rva/rva-high.mp3/playlist.asx",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "video/x-ms-asf",
+    "final": "https://statslive.infomaniak.ch/playlist/rva/rva-high.mp3/playlist.asx"
+   },
+   {
+    "url": "http://rva.ice.infomaniak.ch/rva-high.aac",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://rva.ice.infomaniak.ch/rva-high.aac"
+   },
+   {
+    "url": "http://broadcast.infomaniak.net/rva-high.aac",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "<urlopen error [Errno -2] Name or service not known>",
+    "final": ""
+   },
+   {
+    "url": "http://broadcast.infomaniak.ch/rva-high.aac",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+    "final": ""
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/rva/rva-high.aac/playlist.m3u",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://statslive.infomaniak.ch/playlist/rva/rva-high.aac/playlist.m3u"
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/rva/rva-high.aac/playlist.pls",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "audio/x-scpls",
+    "final": "https://statslive.infomaniak.ch/playlist/rva/rva-high.aac/playlist.pls"
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/rva/rva-high.aac/playlist.ram",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "audio/x-pn-realaudio",
+    "final": "https://statslive.infomaniak.ch/playlist/rva/rva-high.aac/playlist.ram"
+   },
+   {
+    "url": "http://statslive.infomaniak.ch/playlist/rva/rva-high.aac/playlist.asx",
+    "src": "http://fluxradios.blogspot.com/2023/01/flux-url-radio-rva-puy-de-dome-france.html",
+    "ok": false,
+    "ct": "video/x-ms-asf",
+    "final": "https://statslive.infomaniak.ch/playlist/rva/rva-high.aac/playlist.asx"
+   },
+   {
+    "url": "https://s8.stweb.tv/observador/live/playlist.m3u8",
+    "src": "rb:107.9 El Observador|Ciudad Autonoma de Buenos Aires|AR",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Found",
+    "final": ""
+   },
+   {
+    "url": "http://s8.stweb.tv:1935/observador/live/playlist.m3u8",
+    "src": "rb:107.9 El Observador version 2|Ciudad Autonoma de Buenos Aires|AR",
+    "ok": false,
+    "ct": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version num",
+    "final": ""
+   },
+   {
+    "url": "https://redirector.dps.live/observador/aac/icecast.audio",
+    "src": "rb:107.9 El Observador version 4|Ciudad Autonoma de Buenos Aires|AR",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://unlimited5-us.dps.live/observador/aac/icecast.audio"
+   },
+   {
+    "url": "http://icast.connectmedia.hu/5113/live.mp3",
+    "src": "rb:Best FM - Székesfehérvár|Fejér|HU",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://icast.connectmedia.hu/5113/live.mp3"
+   },
+   {
+    "url": "https://icast.connectmedia.hu/5113/live.mp3",
+    "src": "rb:Best FM Székesfehérvár||HU",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://icast.connectmedia.hu/5113/live.mp3"
+   },
+   {
+    "url": "https://jenny.torontocast.com:2000/stream/Delmarva",
+    "src": "rb:Delmarva FM|Maryland|US",
+    "ok": true,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://jenny.torontocast.com:2000/stream/Delmarva"
+   },
+   {
+    "url": "https://s9.stweb.tv/observador/live/playlist.m3u8",
+    "src": "rb:El Observador 107.9||AR",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Found",
+    "final": ""
+   },
+   {
+    "url": "https://streaming.exclusive.radio/er/nirvana/icecast.audio",
+    "src": "rb:Exclusively Nirvana||AE",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://streaming.exclusive.radio/er/nirvana/icecast.audio"
+   },
+   {
+    "url": "https://stream.zeno.fm/c5bt9h37bm8uv",
+    "src": "rb:Goldy Sarvaani||IN",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://stream-288.surfernetwork.com/c5bt9h37bm8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjNWJ0OWgzN2JtOHV2IiwiaG9zdCI6InN0cmVhbS0yODguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkxDT3hrZC1HU2JHc0FPV04xMGF6dGciLCJpYXQiOjE3OTExMjQxNDcsImV4cCI6MTc5MTEyNDIwN30.KwNzrgbihSntkwmtkyJykljCH-d85K-FbuMbpNr5qXY"
+   },
+   {
+    "url": "http://25703.live.streamtheworld.com/VOICEOFCROATIAAAC_SC",
+    "src": "rb:HRT Glas Hrvatske||HR",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://25703.live.streamtheworld.com/VOICEOFCROATIAAAC_SC"
+   },
+   {
+    "url": "https://stream.hkr.hr/hkr.mp3",
+    "src": "rb:Hrvatski Katolički Radio||HR",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://stream.hkr.hr/hkr.mp3"
+   },
+   {
+    "url": "http://23543.live.streamtheworld.com:3690/HR_CLASSICS_SC",
+    "src": "rb:Hrvatski radio - Klasik||HR",
+    "ok": false,
+    "ct": "<urlopen error _ssl.c:983: The handshake operation timed out",
+    "final": ""
+   },
+   {
+    "url": "http://19983.live.streamtheworld.com/HR_CLASSICSAAC_SC",
+    "src": "rb:Hrvatski radio - Klasik (HRT)||HR",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://19983.live.streamtheworld.com/HR_CLASSICSAAC_SC"
+   }
+  ],
+  "altitude": [
+   {
+    "url": "https://centova.radio.com.pt/proxy/034?mp=/stream",
+    "src": "rb:Altitude FM|Guarda|",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://centova.radio.com.pt/proxy/034?mp=/stream"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKSEAMAAC.aac",
+    "src": "rb:Altitude Sports 950 AM|Colorado|US",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://16603.live.streamtheworld.com:443/KKSEAMAAC.aac"
+   },
+   {
+    "url": "http://centova.radios.pt:9034/;",
+    "src": "rb:Rádio Altitude FM||PT",
+    "ok": false,
+    "ct": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+    "final": ""
+   },
+   {
+    "url": "http://radiosofaia.ice.infomaniak.ch/radiosofaia-high.aac",
+    "src": "rb:Sofaia Altitude||GP",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://radiosofaia.ice.infomaniak.ch/radiosofaia-high.aac"
+   }
+  ],
+  "onde": [],
+  "logos": [
+   {
+    "url": "http://logosradio.info:8000/logosradio.mp3lo",
+    "src": "rb:Logos Radio||US",
+    "ok": false,
+    "ct": "<urlopen error _ssl.c:983: The handshake operation timed out",
+    "final": ""
+   },
+   {
+    "url": "http://eco.onestreaming.com:8548/;",
+    "src": "rb:Pavlios Logos||GR",
+    "ok": false,
+    "ct": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+    "final": ""
+   },
+   {
+    "url": "https://s2.stationplaylist.com:9280/listen.aac",
+    "src": "rb:Radio Logos||AL",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://s2.stationplaylist.com:9280/listen.aac"
+   },
+   {
+    "url": "http://radioserver.online:8824/;",
+    "src": "rb:Rádio Logos||SK",
+    "ok": false,
+    "ct": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+    "final": ""
+   }
+  ],
+  "esperance": [
+   {
+    "url": "https://www.youtube.com/c/RadioEspérance/live",
+    "src": "https://www.radio-esperance.fr/",
+    "ok": false,
+    "ct": "'ascii' codec can't encode character '\\xe9' in position 15: ",
+    "final": ""
+   },
+   {
+    "url": "https://esperance.streamakaci.com/esperance.mp3",
+    "src": "rb:Radio Espérance||FR",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://esperance.streamakaci.com/esperance.mp3?_ic2=1791124131819"
+   },
+   {
+    "url": "https://esperance.streamakaci.com/aufil.mp3",
+    "src": "rb:Radio Espérance En Marie||FR",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://esperance.streamakaci.com/aufil.mp3?_ic2=1791124132817"
+   },
+   {
+    "url": "https://esperance.streamakaci.com/enseignement.mp3",
+    "src": "rb:Radio Espérance Enseignement||FR",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://esperance.streamakaci.com/enseignement.mp3?_ic2=1791124133831"
+   },
+   {
+    "url": "https://esperance.streamakaci.com/gregorien.mp3",
+    "src": "rb:Radio Espérance Grégorien||FR",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://esperance.streamakaci.com/gregorien.mp3?_ic2=1791124134608"
+   },
+   {
+    "url": "https://esperance.streamakaci.com/louange.mp3",
+    "src": "rb:Radio Espérance Louange||FR",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://esperance.streamakaci.com/louange.mp3?_ic2=1791124135301"
+   },
+   {
+    "url": "https://esperance.streamakaci.com/musique.mp3",
+    "src": "rb:Radio Espérance Musique Sacrée||FR",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://esperance.streamakaci.com/musique.mp3"
+   },
+   {
+    "url": "https://esperance.streamakaci.com/parole-de-dieu.mp3",
+    "src": "rb:Radio Espérance Parole de Dieu||FR",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://esperance.streamakaci.com/parole-de-dieu.mp3?_ic2=1791124137075"
+   }
+  ],
+  "campus": [
+   {
+    "url": "https://campus-clermont.net/emission/live-in-room/",
+    "src": "https://campus-clermont.net/",
+    "ok": false,
+    "ct": "text/html; charset=UTF-8",
+    "final": "https://campus-clermont.net/emission/live-in-room/"
+   },
+   {
+    "url": "https://campus-clermont.net/wp-content/uploads/2022/10/live-in-room-noir-et-blanc.png&#039",
+    "src": "https://campus-clermont.net/",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Found",
+    "final": ""
+   }
+  ],
+  "fusion": []
+ },
+ "radiomap": {
+  "/fr/play/ado": [
+   {
+    "url": "https://start-adofm.ice.infomaniak.ch/start-adofm-high.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://start-adofm.ice.infomaniak.ch/start-adofm-high.mp3"
+   },
+   {
+    "url": "https://adowork.ice.infomaniak.ch/adowork-128.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://adowork.ice.infomaniak.ch/adowork-128.mp3"
+   },
+   {
+    "url": "https://adous.ice.infomaniak.ch/adous-128.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://adous.ice.infomaniak.ch/adous-128.mp3"
+   },
+   {
+    "url": "https://adomidnightlove.ice.infomaniak.ch/adomidnightlove-128.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Available",
+    "final": ""
+   }
+  ],
+  "/fr/play/air-zen": [],
+  "/fr/play/arverne": [
+   {
+    "url": "http://radioarverne.ice.infomaniak.ch:80/arverne.mp3.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://radioarverne.ice.infomaniak.ch:80/arverne.mp3.m3u"
+   },
+   {
+    "url": "http://radioarverne.ice.infomaniak.ch:80/arverne.mp3--",
+    "ok": false,
+    "ct": "<urlopen error [Errno -3] Temporary failure in name resoluti",
+    "final": ""
+   },
+   {
+    "url": "http://radioarverne.ice.infomaniak.ch:80/arverne.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://radioarverne.ice.infomaniak.ch:80/arverne.mp3"
+   }
+  ],
+  "/fr/play/autorouteinfo_ouest": [
+   {
+    "url": "http://media.autorouteinfo.fr:8000/direct_sud.mp3.m3u",
+    "ok": false,
+    "ct": "<urlopen error _ssl.c:983: The handshake operation timed out",
+    "final": ""
+   },
+   {
+    "url": "https://media.autorouteinfo.fr/direct_sud.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://media.autorouteinfo.fr/direct_sud.mp3"
+   }
+  ],
+  "/fr/play/bfm-business": [
+   {
+    "url": "https://audio.bfmtv.com/bfmbusiness_128.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/bfmbusiness_128.mp3"
+   }
+  ],
+  "/fr/play/bfm-radio": [
+   {
+    "url": "https://audio.bfmtv.com/bfmradio_128.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/bfmradio_128.mp3"
+   }
+  ],
+  "/fr/play/campus-clermont": [
+   {
+    "url": "https://live.radio-campus.org:8002/clermont-ferrand",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://live.radio-campus.org:8002/clermont-ferrand"
+   }
+  ],
+  "/fr/play/chantefrance": [
+   {
+    "url": "http://stream.chantefrance.com/stream_chante_france.mp3.m3u",
+    "ok": false,
+    "ct": "text/html; charset=UTF-8",
+    "final": "https://stream.chantefrance.com/stream_chante_france.mp3.m3u"
+   },
+   {
+    "url": "http://stream.chantefrance.com/stream_chante_france.mp3--",
+    "ok": false,
+    "ct": "text/html; charset=UTF-8",
+    "final": "https://stream.chantefrance.com/stream_chante_france.mp3--"
+   },
+   {
+    "url": "http://stream.chantefrance.com/stream_chante_france.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://chantefrance.ice.infomaniak.ch/chantefrance-128.mp3"
+   }
+  ],
+  "/fr/play/chantier": [],
+  "/fr/play/cherie": [],
+  "/fr/play/classique": [
+   {
+    "url": "http://radioclassique.ice.infomaniak.ch:80/radioclassique-high.mp3.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://radioclassique.ice.infomaniak.ch:80/radioclassique-high.mp3.m3u"
+   },
+   {
+    "url": "http://radioclassique.ice.infomaniak.ch:80/radioclassique-high.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://radioclassique.ice.infomaniak.ch:80/radioclassique-high.mp3"
+   }
+  ],
+  "/fr/play/crooner": [
+   {
+    "url": "https://croonerradio.ice.infomaniak.ch/croonerradio-midfi.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://croonerradio.ice.infomaniak.ch/croonerradio-midfi.mp3"
+   }
+  ],
+  "/fr/play/esperance": [
+   {
+    "url": "https://bretagne5.streamakaci.com/esperance.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://bretagne5.streamakaci.com/esperance.mp3?_ic2=1791124201382"
+   }
+  ],
+  "/fr/play/europe1": [
+   {
+    "url": "https://ais-live.cloud-services.paris/europe1.mp3--",
+    "ok": false,
+    "ct": "<urlopen error timed out>",
+    "final": ""
+   }
+  ],
+  "/fr/play/europe2": [
+   {
+    "url": "https://ais-live.cloud-services.paris/europe2.mp3--",
+    "ok": false,
+    "ct": "<urlopen error timed out>",
+    "final": ""
+   }
+  ],
+  "/fr/play/fg": [
+   {
+    "url": "https://radiofg.impek.com/fga.mp3--",
+    "ok": false,
+    "ct": "text/html; charset=UTF-8",
+    "final": "https://radiofg.impek.com/fga.mp3--"
+   }
+  ],
+  "/fr/play/francemaghreb2": [
+   {
+    "url": "https://francemaghreb2.ice.infomaniak.ch/francemaghreb2-high.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://francemaghreb2.ice.infomaniak.ch/francemaghreb2-high.mp3"
+   },
+   {
+    "url": "http://broadcast.infomaniak.ch/francemaghreb2-high.mp3--",
+    "ok": false,
+    "ct": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+    "final": ""
+   }
+  ],
+  "/fr/play/fuego": [
+   {
+    "url": "https://ice.creacast.com/capsao_b",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Available",
+    "final": ""
+   },
+   {
+    "url": "http://str0.creacast.com:80/capsao_a",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://str0.creacast.com:80/capsao_a"
+   },
+   {
+    "url": "https://str0.creacast.com/capsao_x--",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Available",
+    "final": ""
+   }
+  ],
+  "/fr/play/fun": [],
+  "/fr/play/fusion": [
+   {
+    "url": "http://fusionfm.ice.infomaniak.ch:80/fusionfm-128.aac.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://fusionfm.ice.infomaniak.ch:80/fusionfm-128.aac.m3u"
+   },
+   {
+    "url": "http://fusionfm.ice.infomaniak.ch:80/fusionfm-128.aac",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://fusionfm.ice.infomaniak.ch:80/fusionfm-128.aac"
+   }
+  ],
+  "/fr/play/generations": [
+   {
+    "url": "http://generationfm.ice.infomaniak.ch:80/generationfm-high.mp3.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://generationfm.ice.infomaniak.ch:80/generationfm-high.mp3.m3u"
+   },
+   {
+    "url": "http://generationfm.ice.infomaniak.ch:80/generationfm-high.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://generationfm.ice.infomaniak.ch:80/generationfm-high.mp3"
+   }
+  ],
+  "/fr/play/jazz": [
+   {
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.aac",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.aac"
+   }
+  ],
+  "/fr/play/kto": [
+   {
+    "url": "https://live-radio-kto.akamaized.net/hls/live/2103303-b/KTO/index.m3u8",
+    "ok": false,
+    "ct": "HTTP Error 400: Bad Request",
+    "final": ""
+   }
+  ],
+  "/fr/play/latina": [
+   {
+    "url": "https://start-latina.ice.infomaniak.ch/start-latina-high.aac",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://start-latina.ice.infomaniak.ch/start-latina-high.aac"
+   },
+   {
+    "url": "http://broadcast.infomaniak.ch/start-latina-high.mp3--",
+    "ok": false,
+    "ct": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+    "final": ""
+   },
+   {
+    "url": "https://start-latina.ice.infomaniak.ch/start-latina-high.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://start-latina.ice.infomaniak.ch/start-latina-high.mp3"
+   }
+  ],
+  "/fr/play/logos_puydedome": [
+   {
+    "url": "http://193.70.85.229:8000/xstream2.m3u",
+    "ok": false,
+    "ct": "<urlopen error [Errno 111] Connection refused>",
+    "final": ""
+   },
+   {
+    "url": "http://193.70.85.229:8000/xstream2",
+    "ok": false,
+    "ct": "<urlopen error [Errno 111] Connection refused>",
+    "final": ""
+   }
+  ],
+  "/fr/play/m-radio": [
+   {
+    "url": "http://mfm.ice.infomaniak.ch:80/mfm-128.mp3.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://mfm.ice.infomaniak.ch:80/mfm-128.mp3.m3u"
+   },
+   {
+    "url": "http://mradio2.ice.infomaniak.ch:80/mradio.mp3--",
+    "ok": false,
+    "ct": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+    "final": ""
+   },
+   {
+    "url": "http://mfm.ice.infomaniak.ch:80/mfm-128.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://mfm.ice.infomaniak.ch:80/mfm-128.mp3"
+   }
+  ],
+  "/fr/play/melody": [],
+  "/fr/play/nostalgie": [
+   {
+    "url": "https://scdn.nrjaudio.fm/adwz2/fr/30601/mp3_128.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Found",
+    "final": ""
+   }
+  ],
+  "/fr/play/nova": [
+   {
+    "url": "https://novazz.ice.infomaniak.ch/novazz-128.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://novazz.ice.infomaniak.ch/novazz-128.mp3"
+   }
+  ],
+  "/fr/play/nrj": [],
+  "/fr/play/oui": [
+   {
+    "url": "http://ouifm.ice.infomaniak.ch:80/ouifm-high.mp3.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://ouifm.ice.infomaniak.ch:80/ouifm-high.mp3.m3u"
+   },
+   {
+    "url": "http://ouifm.ice.infomaniak.ch:80/ouifm-high.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://ouifm.ice.infomaniak.ch:80/ouifm-high.mp3"
+   }
+  ],
+  "/fr/play/rcf63": [
+   {
+    "url": "https://rcf.streamakaci.com/rcf63.mp3.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://rcf.streamakaci.com/rcf63.mp3.m3u"
+   },
+   {
+    "url": "https://rcf.streamakaci.com/rcf63.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://rcf.streamakaci.com/rcf63.mp3?_ic2=1791124297689"
+   }
+  ],
+  "/fr/play/rf-culture": [
+   {
+    "url": "http://icecast.radiofrance.fr/franceculture-midfi.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceculture-midfi.mp3"
+   },
+   {
+    "url": "http://direct.franceculture.fr/live/franceculture-midfi.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 403: Forbidden",
+    "final": ""
+   }
+  ],
+  "/fr/play/rf-fip": [
+   {
+    "url": "http://icecast.radiofrance.fr/fip-midfi.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/fip-midfi.mp3"
+   },
+   {
+    "url": "http://direct.fipradio.fr/live/fip-midfi.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 403: Forbidden",
+    "final": ""
+   }
+  ],
+  "/fr/play/rf-ici_pays-d-auvergne": [
+   {
+    "url": "http://icecast.radiofrance.fr/fbpaysdauvergne-midfi1.mp3",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Found",
+    "final": ""
+   },
+   {
+    "url": "http://icecast.radiofrance.fr/fbpaysdauvergne-lofi.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 403: Forbidden",
+    "final": ""
+   },
+   {
+    "url": "http://icecast.radiofrance.fr/fbpaysdauvergne-midfi.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/fbpaysdauvergne-midfi.mp3"
+   }
+  ],
+  "/fr/play/rf-info": [
+   {
+    "url": "http://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3"
+   },
+   {
+    "url": "http://direct.franceinfo.fr/live/franceinfo-midfi.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 403: Forbidden",
+    "final": ""
+   }
+  ],
+  "/fr/play/rf-inter": [
+   {
+    "url": "http://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3"
+   },
+   {
+    "url": "http://direct.franceinter.fr/live/franceinter-midfi.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 403: Forbidden",
+    "final": ""
+   }
+  ],
+  "/fr/play/rf-mouv": [
+   {
+    "url": "http://icecast.radiofrance.fr/mouv-midfi.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/mouv-midfi.mp3"
+   },
+   {
+    "url": "http://direct.mouv.fr/live/mouv-midfi.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 403: Forbidden",
+    "final": ""
+   }
+  ],
+  "/fr/play/rf-musique": [
+   {
+    "url": "http://icecast.radiofrance.fr/francemusique-midfi.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/francemusique-midfi.mp3"
+   },
+   {
+    "url": "http://direct.francemusique.fr/live/francemusique-midfi.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 403: Forbidden",
+    "final": ""
+   }
+  ],
+  "/fr/play/rfm": [
+   {
+    "url": "https://ais-live.cloud-services.paris/rfm.mp3--",
+    "ok": false,
+    "ct": "<urlopen error timed out>",
+    "final": ""
+   }
+  ],
+  "/fr/play/rireetchansons": [],
+  "/fr/play/rmc": [
+   {
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3"
+   }
+  ],
+  "/fr/play/rtl": [],
+  "/fr/play/rtl2": [],
+  "/fr/play/rva": [
+   {
+    "url": "http://rva.ice.infomaniak.ch:80/rva-high.mp3.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://rva.ice.infomaniak.ch:80/rva-high.mp3.m3u"
+   },
+   {
+    "url": "http://rva.ice.infomaniak.ch:80/rva-high.mp3--",
+    "ok": false,
+    "ct": "<urlopen error [Errno -3] Temporary failure in name resoluti",
+    "final": ""
+   },
+   {
+    "url": "http://rva.ice.infomaniak.ch:80/rva-high.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://rva.ice.infomaniak.ch:80/rva-high.mp3"
+   }
+  ],
+  "/fr/play/scoop_clermont": [
+   {
+    "url": "http://radioscoopclermont-ferrand.ice.infomaniak.ch:80/radioscoop-clermont-128.mp3.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://radioscoopclermont-ferrand.ice.infomaniak.ch:80/radioscoop-clermont-128.mp3.m3u"
+   },
+   {
+    "url": "https://radioscoopclermont-ferrand.ice.infomaniak.ch/radioscoop-clermont-64.aac",
+    "ok": true,
+    "ct": "audio/aac",
+    "final": "https://radioscoopclermont-ferrand.ice.infomaniak.ch/radioscoop-clermont-64.aac"
+   }
+  ],
+  "/fr/play/skyrock": [
+   {
+    "url": "http://www.skyrock.fm/stream.php/tunein16_128mp3.mp3--",
+    "ok": false,
+    "ct": "HTTP Error 400: Bad Request",
+    "final": ""
+   }
+  ],
+  "/fr/play/sud": [
+   {
+    "url": "https://ice.creacast.com/sudradio.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://ice.creacast.com/sudradio.m3u"
+   },
+   {
+    "url": "https://ice.creacast.com/sudradio",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://ice.creacast.com/sudradio"
+   }
+  ],
+  "/fr/play/totem": [
+   {
+    "url": "https://aratotem.ice.infomaniak.ch/aveyron.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://aratotem.ice.infomaniak.ch/aveyron.mp3"
+   }
+  ],
+  "/fr/play/tsf-jazz": [
+   {
+    "url": "http://tsfjazz.ice.infomaniak.ch:80/tsfjazz-high.mp3.m3u",
+    "ok": false,
+    "ct": "audio/x-mpegurl",
+    "final": "https://tsfjazz.ice.infomaniak.ch:80/tsfjazz-high.mp3.m3u"
+   },
+   {
+    "url": "http://tsfjazz.ice.infomaniak.ch:80/tsfjazz-high.mp3--",
+    "ok": false,
+    "ct": "<urlopen error [Errno -3] Temporary failure in name resoluti",
+    "final": ""
+   },
+   {
+    "url": "http://tsfjazz.ice.infomaniak.ch:80/tsfjazz-high.mp3",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://tsfjazz.ice.infomaniak.ch:80/tsfjazz-high.mp3"
+   }
+  ],
+  "/fr/play/vinci_autoroutes5": [
+   {
+    "url": "http://players.creacast.com/creacast/radio_vinci_autoroutes_5/playlist.pls",
+    "ok": false,
+    "ct": "audio/x-scpls",
+    "final": "https://players.creacast.com/creacast/radio_vinci_autoroutes_5/playlist.pls"
+   },
+   {
+    "url": "https://ice.creacast.com/radio_vinci_autoroutes_5--",
+    "ok": false,
+    "ct": "HTTP Error 404: Not Available",
+    "final": ""
+   },
+   {
+    "url": "https://ice.creacast.com/radio_vinci_autoroutes_5",
+    "ok": true,
+    "ct": "audio/mpeg",
+    "final": "https://ice.creacast.com/radio_vinci_autoroutes_5"
+   }
+  ]
+ }
+}
