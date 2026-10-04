@@ -72,6 +72,7 @@ section.view>*{min-width:0}
 .badge img{width:100%;height:100%;object-fit:cover;background:#fff}
 .card .txt{min-width:0;flex:1;padding-right:18px}
 .card .name{font-weight:600;font-size:14.5px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.card.fm{opacity:.62}
 .card .sub{font:400 12px/1.3 var(--f-mono);color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .star{position:absolute;top:6px;right:6px;border:0;background:transparent;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;color:var(--line)}
 .card .star{color:rgba(120,135,128,.35)}
@@ -276,17 +277,17 @@ var STATIONS=[
  {id:"nrj",n:"NRJ (national)",ab:"NRJ",g:"nrj",urls:[NRJ+"oumvmk8fnozc"],q:"NRJ"},
  {id:"nostalgie-clermont",n:"Nostalgie Clermont",ab:"Nost",g:"nrj",f:87.7,city:"Clermont",urls:[NRJ+"ou5knjirv93h"],q:"Nostalgie"},
  {id:"nostalgie",n:"Nostalgie (national)",ab:"Nost",g:"nrj",urls:[NRJ+"oug7girb92oc"],q:"Nostalgie"},
- {id:"rire",n:"Rire & Chansons",ab:"R&C",g:"nrj",f:95.0,urls:[],q:"Rire et Chansons"},
+ {id:"rire",n:"Rire & Chansons",ab:"R&C",g:"nrj",f:95.0,urls:[NRJ+"ou8o8xgk7oiu"],q:"Rire et Chansons"},
 
- {id:"inter",n:"France Inter",ab:"Inter",g:"rf",f:90.4,urls:[RF+"franceinter-midfi.mp3"],q:"France Inter"},
+ {id:"inter",n:"France Inter",ab:"Inter",g:"rf",f:90.4,urls:[RF+"franceinter-midfi.mp3","https://direct.franceinter.fr/live/franceinter-midfi.mp3"],q:"France Inter"},
  {id:"franceinfo",n:"franceinfo",ab:"Info",g:"rf",f:105.5,urls:[RF+"franceinfo-midfi.mp3"],q:"franceinfo"},
  {id:"culture",n:"France Culture",ab:"Cult",g:"rf",f:98.4,urls:[RF+"franceculture-midfi.mp3"],q:"France Culture"},
  {id:"musique",n:"France Musique",ab:"Mus",g:"rf",f:95.5,urls:[RF+"francemusique-midfi.mp3"],q:"France Musique"},
  {id:"mouv",n:"Mouv'",ab:"Mouv",g:"rf",f:97.5,urls:[RF+"mouv-midfi.mp3"],q:"Mouv"},
  {id:"fip",n:"FIP",ab:"FIP",g:"rf",urls:[RF+"fip-midfi.mp3"],q:"FIP"},
- {id:"ici-auvergne",n:"ici Pays d'Auvergne",ab:"ici",g:"rf",f:102.5,city:"ex-France Bleu",urls:[RF+"fbpaysdauvergne-midfi.mp3"],q:"France Bleu Pays d'Auvergne"},
+ {id:"ici-auvergne",n:"ici Pays d'Auvergne",ab:"ici",g:"rf",f:102.5,city:"ex-France Bleu",urls:[RF+"fbpaysdauvergne-midfi.mp3","https://direct.francebleu.fr/live/fbpaysdauvergne-midfi.mp3"],q:"France Bleu Pays d'Auvergne"},
 
- {id:"rtl",n:"RTL",ab:"RTL",g:"m6",f:104.3,urls:["https://icecast.rtl.fr/rtl-1-44-128"+LQ,"https://streaming.radio.rtl.fr/rtl-1-44-128"+LQ],q:"RTL"},
+ {id:"rtl",n:"RTL",ab:"RTL",g:"m6",f:104.3,urls:["https://icecast.rtl.fr/rtl-1-44-128"+LQ,"https://icecast.rtl.fr/rtl-1-44-128"],q:"RTL"},
  {id:"rtl2",n:"RTL2",ab:"RTL2",g:"m6",f:105.9,urls:["https://icecast.rtl2.fr/rtl2-1-44-128"+LQ,"https://icecast.rtl.fr/rtl2-1-44-128"+LQ],q:"RTL2"},
  {id:"fun",n:"Fun Radio",ab:"Fun",g:"m6",f:96.6,urls:["https://icecast.funradio.fr/fun-1-44-128"+LQ,"https://icecast.rtl.fr/fun-1-44-128"+LQ],q:"Fun Radio"},
 
@@ -299,23 +300,23 @@ var STATIONS=[
 
  {id:"skyrock",n:"Skyrock",ab:"Sky",g:"ind",f:96.2,urls:["https://icecast.skyrock.net/s/natio_mp3_128k"],q:"Skyrock"},
  {id:"nova",n:"Radio Nova",ab:"Nova",g:"ind",f:102.9,urls:["https://novazz.ice.infomaniak.ch/novazz-128.mp3"],q:"Radio Nova"},
- {id:"classique",n:"Radio Classique",ab:"Class",g:"ind",f:92.6,urls:["https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3"],q:"Radio Classique"},
- {id:"sud",n:"Sud Radio",ab:"Sud",g:"ind",f:88.1,urls:["https://start-sud.ice.infomaniak.ch/start-sud-high.mp3"],q:"Sud Radio"},
+ {id:"classique",n:"Radio Classique",ab:"Class",g:"ind",f:92.6,urls:["https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3","https://str0.creacast.com/classique1"],q:"Radio Classique"},
+ {id:"sud",n:"Sud Radio",ab:"Sud",g:"ind",f:88.1,urls:["https://start-sud.ice.infomaniak.ch/start-sud-high.mp3","https://ice.creacast.com/sudradio"],q:"Sud Radio"},
  {id:"jazz",n:"Jazz Radio",ab:"Jazz",g:"ind",f:99.4,urls:["https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3"],q:"Jazz Radio"},
  {id:"mradio",n:"M Radio",ab:"M",g:"ind",f:94.4,urls:["https://mfm.ice.infomaniak.ch/mfm-128.mp3"],q:"M Radio"},
  {id:"fg",n:"Radio FG",ab:"FG",g:"ind",f:88.8,urls:["https://radiofg.impek.com/fg"],q:"Radio FG"},
  {id:"scoop",n:"Radio Scoop Clermont",ab:"Scoop",g:"ind",f:98.8,city:"Clermont",urls:["https://radioscoopclermont-ferrand.ice.infomaniak.ch/radioscoop-clermont-128.mp3"],q:"Radio Scoop"},
 
- {id:"arverne",n:"Radio Arverne",ab:"Arv",g:"loc",f:100.2,city:"Clermont",urls:[],q:"Radio Arverne"},
- {id:"variance",n:"Variance FM",ab:"Var",g:"loc",f:103.7,urls:[],q:"Variance FM"},
- {id:"fusion",n:"Fusion FM",ab:"Fus",g:"loc",f:94.0,urls:[],q:"Fusion FM"},
- {id:"campus",n:"Radio Campus Clermont",ab:"Camp",g:"loc",f:93.3,urls:[],q:"Radio Campus Clermont"},
- {id:"rcf63",n:"RCF Puy-de-Dôme",ab:"RCF",g:"loc",f:91.6,urls:[],q:"RCF Puy-de-Dome"},
- {id:"altitude",n:"Radio Altitude",ab:"Alt",g:"loc",f:97.0,urls:[],q:"Radio Altitude"},
- {id:"onde",n:"L'Onde Porteuse",ab:"Onde",g:"loc",f:98.0,urls:[],q:"Onde Porteuse"},
- {id:"rva",n:"RVA",ab:"RVA",g:"loc",f:92.0,urls:[],q:"RVA Clermont"},
- {id:"logos",n:"Logos FM",ab:"Logos",g:"loc",f:101.6,urls:[],q:"Logos FM"},
- {id:"esperance",n:"Radio Espérance",ab:"Esp",g:"loc",f:91.2,urls:[],q:"Radio Esperance"}
+ {id:"arverne",n:"Radio Arverne",ab:"Arv",g:"loc",f:100.2,city:"Clermont",urls:["https://radioarverne.ice.infomaniak.ch/arverne.mp3"],q:"Radio Arverne"},
+ {id:"variance",n:"Variance FM",ab:"Var",g:"loc",f:103.7,urls:["https://proxy-eu.webradio.tools/radio.variancefm.com:8290/variance","https://proxy-eu.webradio.tools/radio.variancefm.com:8000/variance"],q:"Variance FM"},
+ {id:"fusion",n:"Fusion FM",ab:"Fus",g:"loc",f:94.0,urls:["https://fusionfm.ice.infomaniak.ch/fusionfm-192.mp3"],q:"Fusion FM"},
+ {id:"campus",n:"Radio Campus Clermont",ab:"Camp",g:"loc",f:93.3,urls:["https://live.radio-campus.org:8002/clermont-ferrand"],q:"Radio Campus Clermont"},
+ {id:"rcf63",n:"RCF Puy-de-Dôme",ab:"RCF",g:"loc",f:91.6,urls:["https://rcf.streamakaci.com/rcf63.mp3"],q:"RCF Puy-de-Dome"},
+ {id:"altitude",n:"Radio Altitude",ab:"Alt",g:"loc",f:97.0,urls:[],q:"",fm:true},
+ {id:"onde",n:"L'Onde Porteuse",ab:"Onde",g:"loc",f:98.0,urls:[],q:"",fm:true},
+ {id:"rva",n:"RVA",ab:"RVA",g:"loc",f:92.0,urls:["https://rva.ice.infomaniak.ch/rva-high.mp3"],q:""},
+ {id:"logos",n:"Logos FM",ab:"Logos",g:"loc",f:101.6,urls:[],q:"",fm:true},
+ {id:"esperance",n:"Radio Espérance",ab:"Esp",g:"loc",f:91.2,urls:["https://esperance.streamakaci.com/esperance.mp3"],q:"Radio Esperance"}
 ];
 var AUVERGNE=[
  {t:"Mon antenne",note:"Les trois décrochages locaux de Chérie FM en Auvergne.",ids:["cherie-auv","cherie-vichy","cherie-issoire"]},
@@ -337,7 +338,7 @@ function load(k,d){try{var v=localStorage.getItem("radiojl:"+k);return v?JSON.pa
 function save(k,v){try{localStorage.setItem("radiojl:"+k,JSON.stringify(v))}catch(e){}}
 var favs=load("favs",["cherie-auv","cherie","ici-auvergne","franceinfo","rtl"]);
 var custom=load("custom",[]);
-var found=load("found",{});      // flux de secours trouvés
+var found=load("found2",{});      // flux de secours trouvés
 var alarmCfg=load("alarm",{time:"07:00",station:"cherie-auv",days:[1,2,3,4,5],fade:true});
 var lastId=load("last",null);
 
@@ -353,8 +354,8 @@ function badgeHTML(s){
 }
 function badgeStyle(s){return "background:var("+(GROUP_COLORS[s.g]||"--g-perso")+")"}
 function card(s,listKey){
-  var sub=[];if(s.f)sub.push(s.f.toFixed(1));if(s.city)sub.push(s.city);if(!sub.length)sub.push(s.tag||"web");
-  return '<div class="card'+(cur===s.id?" playing":"")+'" role="button" tabindex="0" data-id="'+s.id+'" data-list="'+listKey+'">'+
+  var sub=[];if(s.f)sub.push(s.f.toFixed(1));if(s.city)sub.push(s.city);if(s.fm)sub.push("FM seulement");if(!sub.length)sub.push(s.tag||"web");
+  return '<div class="card'+(s.fm?" fm":"")+(cur===s.id?" playing":"")+'" role="button" tabindex="0" data-id="'+s.id+'" data-list="'+listKey+'">'+
    '<div class="badge" style="'+badgeStyle(s)+'">'+badgeHTML(s)+'</div>'+
    '<div class="txt"><div class="name">'+esc(s.n)+'</div><div class="sub">'+esc(sub.join(" · "))+'</div><div class="eq"><i></i><i></i><i></i></div></div>'+
    '<button class="star'+(favs.indexOf(s.id)>-1?" on":"")+'" data-fav="'+s.id+'" aria-label="Favori">'+STAR+'</button></div>';
@@ -438,7 +439,7 @@ function attempt(url,my){
     function fin(v){if(done)return;done=true;clearTimeout(t);audio.removeEventListener("playing",ok);audio.removeEventListener("error",ko);res(v)}
     function ok(){fin("ok")} function ko(){fin("fail")}
     audio.addEventListener("playing",ok);audio.addEventListener("error",ko);
-    t=setTimeout(function(){fin("fail")},10000);
+    t=setTimeout(function(){fin("fail")},15000);
     audio.loop=false;audio.src=url;
     var p=audio.play();
     if(p&&p.catch)p.catch(function(e){if(e&&e.name==="NotAllowedError")fin("blocked");else if(e&&e.name!=="AbortError")fin("fail")});
@@ -461,6 +462,7 @@ function rbSearchStation(s){
 }
 function play(id,listKey){
   var s=byId(id);if(!s)return;
+  if(s.fm){pName.textContent=s.n;pBadge.setAttribute("style",badgeStyle(s));pBadge.innerHTML=badgeHTML(s);setStatus("Pas de diffusion internet, FM seulement","err");return Promise.resolve(false)}
   var my=++token;cur=id;if(listKey)curList=listKey;mode="loading";save("last",id);
   pName.textContent=s.n;pBadge.setAttribute("style",badgeStyle(s));pBadge.innerHTML=badgeHTML(s);
   setStatus("Connexion…");setIcon();refreshPlaying();mediaMeta(s);
@@ -479,12 +481,12 @@ function play(id,listKey){
     }
     return attempt(list[i],my).then(function(r){
       if(my!==token||r==="cancel")return;
-      if(r==="ok"){mode="playing";setIcon();setStatus("En direct","live");if(fromSearch||i>0){found[id]=list[i];save("found",found)}return true}
+      if(r==="ok"){mode="playing";setIcon();setStatus("En direct","live");if(fromSearch||i>0){found[id]=list[i];save("found2",found)}return true}
       if(r==="blocked"){mode="paused";setIcon();setStatus("Touchez ▶ pour lancer");return "blocked"}
       return run(list,i+1,fromSearch);
     });
   }
-  function failAll(){if(my!==token)return;mode="error";setIcon();setStatus("Flux indisponible pour le moment","err");delete found[id];save("found",found);return false}
+  function failAll(){if(my!==token)return;mode="error";setIcon();setStatus("Flux indisponible pour le moment","err");delete found[id];save("found2",found);return false}
 }
 function toggle(){
   if(!cur){var first=byId(lastId)?lastId:"cherie-auv";play(first,"auv0");return}
