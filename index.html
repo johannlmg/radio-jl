@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Radio JL">
+<meta name="theme-color" content="#94B3A6">
+<title>Radio JL</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout : mur vert céladon (la photo de Johann) ; en tête un tuner anthracite façon poste radio avec affichage de la fréquence ; cartes blanc cassé ; lecteur en pilule flottante. */
+:root{
+  --wall:#94B3A6; --wall-2:#87A79A; --surface:#F7F6F0; --surface-2:#EEEDE5; --ink:#26302C; --muted:#5A6B63; --line:rgba(38,48,44,.12);
+  --accent:#3E5A4E; --accent-ink:#F7F6F0; --soft:rgba(247,246,240,.55);
+  --tuner:#26302C; --tuner-ink:#EFEDE4; --tuner-dim:#8C9B94; --needle:#E9895F; --glow:rgba(233,137,95,.35);
+  --danger:#B4523F; --on-badge:#22302A; --shadow:0 1px 2px rgba(30,45,38,.08),0 6px 18px -8px rgba(30,45,38,.25);
+  --g-nrj:#EDC9C6; --g-rf:#C6D8E4; --g-m6:#EFDDB0; --g-lag:#D9D0EA; --g-rmc:#C2DDD8; --g-ind:#E4DFCF; --g-loc:#D3E3CF; --g-perso:#EAD9C7;
+  --f-display:"Familjen Grotesk","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Instrument Sans",-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --r:18px; color-scheme:light;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --wall:#18211E; --wall-2:#1E2925; --surface:#232E2A; --surface-2:#2B3833; --ink:#E9ECE5; --muted:#9AAAA2; --line:rgba(233,236,229,.1);
+  --accent:#A9C7B9; --accent-ink:#18211E; --soft:rgba(35,46,42,.7);
+  --tuner:#0F1513; --tuner-ink:#EFEDE4; --tuner-dim:#7D8C85; --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 22px -10px rgba(0,0,0,.6); --danger:#E0806E; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --wall:#18211E; --wall-2:#1E2925; --surface:#232E2A; --surface-2:#2B3833; --ink:#E9ECE5; --muted:#9AAAA2; --line:rgba(233,236,229,.1);
+  --accent:#A9C7B9; --accent-ink:#18211E; --soft:rgba(35,46,42,.7);
+  --tuner:#0F1513; --tuner-ink:#EFEDE4; --tuner-dim:#7D8C85; --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 22px -10px rgba(0,0,0,.6); --danger:#E0806E; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--wall) var(--grain);color:var(--ink);font:15px/1.45 var(--f-body);-webkit-font-smoothing:antialiased;padding-bottom:calc(120px + env(safe-area-inset-bottom,0px));min-height:100vh}
+[hidden]{display:none!important}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,select:focus-visible,.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1100px;margin:0 auto;padding-inline:16px}
+
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--wall) var(--grain)}
+.top-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:14px 10px}
+.brand{display:flex;align-items:center;gap:10px}
+.mono{width:34px;height:34px;border-radius:10px;background:var(--tuner);color:var(--tuner-ink);display:grid;place-items:center;font:700 14px/1 var(--f-display);letter-spacing:-.02em}
+.brand b{font:700 24px/1 var(--f-display);letter-spacing:-.03em}
+.clock{font:500 14px var(--f-mono);color:var(--ink);font-variant-numeric:tabular-nums;background:var(--soft);padding:5px 10px;border-radius:999px}
+nav.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;padding:4px;margin-bottom:10px;background:var(--soft);border-radius:999px;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{flex:1 0 auto;border:0;background:transparent;padding:8px 14px;border-radius:999px;font-weight:600;font-size:14px;color:var(--muted);white-space:nowrap;transition:background .2s,color .2s}
+nav.tabs button[aria-selected="true"]{background:var(--tuner);color:var(--tuner-ink)}
+
+main{padding-block:8px 24px}
+section.view{display:grid;gap:30px;grid-template-columns:minmax(0,1fr)}
+section.view>*{min-width:0}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
+.sec-head h2{font:700 21px/1.15 var(--f-display);margin:0;letter-spacing:-.02em;text-wrap:balance}
+.sec-head small{font:500 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.note{color:var(--muted);font-size:13.5px;margin:-6px 0 12px;max-width:65ch}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+.card{position:relative;display:flex;align-items:center;gap:12px;padding:12px;background:var(--surface);border-radius:var(--r);text-align:left;min-width:0;box-shadow:var(--shadow);transition:transform .12s,background .2s,color .2s}
+.card:hover{transform:translateY(-1px)}
+.card:active{transform:scale(.98)}
+.card.playing{background:var(--tuner);color:var(--tuner-ink)}
+.card.playing .sub{color:var(--tuner-dim)}
+.badge{flex:none;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font:700 11.5px/1 var(--f-display);letter-spacing:-.01em;color:var(--on-badge);background:var(--g-loc);text-transform:uppercase;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(0,0,0,.05)}
+.badge img{width:100%;height:100%;object-fit:cover;background:#fff}
+.card .txt{min-width:0;flex:1;padding-right:18px}
+.card .name{font-weight:600;font-size:14.5px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.card .sub{font:400 12px/1.3 var(--f-mono);color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.star{position:absolute;top:6px;right:6px;border:0;background:transparent;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;color:var(--line)}
+.card .star{color:rgba(120,135,128,.35)}
+.star svg{width:15px;height:15px}
+.card .star.on{color:var(--needle)}
+.card .eq{display:none;gap:2px;align-items:flex-end;height:12px;margin-top:5px}
+.card.playing .eq{display:flex}
+.eq i{width:3px;background:var(--needle);border-radius:1px;animation:eq 1s infinite ease-in-out}
+.eq i:nth-child(2){animation-delay:.2s}.eq i:nth-child(3){animation-delay:.4s}
+@keyframes eq{0%,100%{height:3px}50%{height:12px}}
+@media (prefers-reduced-motion:reduce){.eq i{animation:none;height:8px}.card,.dial .needle{transition:none}}
+
+/* Tuner (cadran FM) */
+.dial-box{background:var(--tuner);color:var(--tuner-ink);border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}
+.readout{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:16px 18px 6px;flex-wrap:wrap}
+.ro-main{display:flex;align-items:baseline;gap:8px}
+.ro-f{font:500 52px/0.9 var(--f-mono);letter-spacing:-.04em;color:var(--tuner-ink);text-shadow:0 0 18px var(--glow);font-variant-numeric:tabular-nums}
+.ro-u{font:500 12px var(--f-mono);color:var(--tuner-dim);letter-spacing:.1em}
+.ro-side{text-align:right;min-width:0}
+.ro-n{font:600 16px/1.2 var(--f-display);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:60vw}
+.ro-s{font:500 10.5px var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--tuner-dim);margin-top:3px}
+.ro-s.live{color:var(--needle)}
+.dial-scroll{overflow-x:auto;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.dial-scroll::-webkit-scrollbar{display:none}
+.dial{position:relative;height:152px;width:1500px}
+.dial .tick{position:absolute;bottom:24px;width:1px;background:rgba(239,237,228,.22)}
+.dial .tick.maj{background:rgba(239,237,228,.6)}
+.dial .lbl{position:absolute;bottom:6px;transform:translateX(-50%);font:400 10.5px var(--f-mono);color:var(--tuner-dim)}
+.dial .st{position:absolute;z-index:1;transform:translateX(-50%);border:0;background:rgba(239,237,228,.08);border-radius:999px;padding:3px 9px;font:600 11px/1.3 var(--f-body);white-space:nowrap;color:var(--tuner-ink);transition:background .2s}
+.dial .st:hover{background:rgba(239,237,228,.18)}
+.dial .st::after{content:"";position:absolute;left:50%;top:100%;width:1px;background:rgba(239,237,228,.14);height:var(--stem)}
+.dial .st.mine{background:var(--wall);color:#1E2A25}
+.dial .st.playing{background:var(--needle);color:#1E1A17}
+.dial .needle{position:absolute;z-index:0;top:4px;bottom:24px;width:2px;margin-left:-1px;background:var(--needle);box-shadow:0 0 12px 2px var(--glow);transition:left .5s cubic-bezier(.3,.7,.2,1)}
+
+/* Formulaires */
+.panel{background:var(--surface);border-radius:var(--r);padding:18px;display:grid;gap:16px;max-width:560px;box-shadow:var(--shadow)}
+label.f{display:grid;gap:6px;font-weight:600;font-size:13px}
+input[type=time],input[type=search],select{font:inherit;padding:11px 13px;border-radius:12px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink);width:100%;min-width:0}
+input[type=time]{font:500 34px var(--f-mono);padding:8px 13px;letter-spacing:-.02em}
+.days{display:flex;flex-wrap:wrap;gap:6px}
+.days button{border:1px solid var(--line);background:var(--surface-2);border-radius:999px;padding:7px 12px;font-size:13px;font-weight:600}
+.days button[aria-pressed="true"]{background:var(--tuner);border-color:var(--tuner);color:var(--tuner-ink)}
+.chk{display:flex;gap:8px;align-items:center;font-size:14px}
+.chk input{accent-color:var(--accent);width:18px;height:18px}
+.btn{border:0;border-radius:14px;padding:13px 18px;font-weight:700;background:var(--tuner);color:var(--tuner-ink)}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.btn.sage{background:var(--accent);color:var(--accent-ink)}
+.armed{display:grid;gap:6px;padding:20px;border-radius:22px;background:var(--tuner);color:var(--tuner-ink);max-width:560px;box-shadow:var(--shadow)}
+.armed .big{font:500 64px/1 var(--f-mono);letter-spacing:-.04em;text-shadow:0 0 18px var(--glow)}
+.armed .btn.ghost{color:var(--tuner-ink);border-color:rgba(239,237,228,.25)}
+.tips{font-size:13.5px;color:var(--ink);opacity:.8;display:grid;gap:8px;max-width:65ch;margin:0;padding-left:18px}
+.search-row{display:flex;gap:8px}
+.search-row input{flex:1;background:var(--surface)}
+.empty{color:var(--muted);font-size:14px;padding:20px;background:var(--soft);border-radius:var(--r);max-width:560px}
+.res-actions{display:flex;gap:6px;margin-top:6px}
+.mini{border:1px solid var(--line);background:var(--surface-2);border-radius:999px;padding:4px 10px;font-size:12px;font-weight:600}
+
+/* Lecteur flottant */
+.player{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:0 12px calc(12px + env(safe-area-inset-bottom,0px));pointer-events:none}
+.player .in{pointer-events:auto;max-width:760px;margin:0 auto;display:flex;align-items:center;gap:10px;background:var(--tuner);color:var(--tuner-ink);border-radius:26px;padding:8px 10px 8px 8px;box-shadow:0 12px 32px -10px rgba(15,25,20,.55)}
+.player .badge{width:48px;height:48px}
+.player .meta{min-width:0;flex:1}
+.player .pn{font:600 16px/1.2 var(--f-display);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.player .ps{font:400 11.5px var(--f-mono);color:var(--tuner-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.player .ps .live{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--needle);box-shadow:0 0 8px var(--glow);margin-right:6px;vertical-align:1px}
+.player .ps.err{color:var(--needle)}
+.pbtn{border:0;background:transparent;color:var(--tuner-ink);width:40px;height:40px;border-radius:50%;display:grid;place-items:center;flex:none}
+.pbtn:hover{background:rgba(239,237,228,.08)}
+.pbtn svg{width:21px;height:21px}
+.pbtn.main{background:var(--tuner-ink);color:var(--tuner);width:50px;height:50px}
+.pbtn.main:hover{background:var(--tuner-ink)}
+.pbtn.on{color:var(--needle)}
+.vol{width:100px;accent-color:var(--needle)}
+.sleep-chip{font:500 10.5px var(--f-mono);color:var(--needle);background:rgba(233,137,95,.14);padding:2px 7px;border-radius:999px;margin-left:6px}
+@media (max-width:560px){.player .hide-s{display:none}.ro-f{font-size:44px}}
+
+.sandbox{background:var(--tuner);color:var(--tuner-ink);border-radius:var(--r);padding:14px 16px;margin-bottom:16px;font-size:14px;line-height:1.45}
+.sandbox b{color:var(--needle)}
+/* Feuille modale */
+.sheet-bg{position:fixed;inset:0;background:rgba(15,22,19,.4);z-index:40;display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--surface);color:var(--ink);width:100%;max-width:480px;border-radius:24px 24px 0 0;padding:20px 16px calc(18px + env(safe-area-inset-bottom,0px));display:grid;gap:12px}
+.sheet h3{margin:0;font:700 19px var(--f-display);letter-spacing:-.02em}
+.opts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.opts button{border:0;background:var(--surface-2);border-radius:14px;padding:14px 6px;font:500 15px var(--f-mono)}
+.opts button:hover{background:var(--tuner);color:var(--tuner-ink)}
+.wake{position:fixed;inset:0;z-index:50;background:var(--tuner);color:var(--tuner-ink);display:grid;place-items:center;text-align:center;padding:24px}
+.wake .big{font:500 84px var(--f-mono);letter-spacing:-.04em;text-shadow:0 0 24px var(--glow)}
+.wake button{margin-top:22px;background:var(--needle);color:#1E1A17}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="top-row">
+      <div class="brand"><span class="mono" aria-hidden="true">JL</span><b>Radio</b></div>
+      <div class="clock" id="clock">--:--</div>
+    </div>
+    <nav class="tabs" role="tablist" id="tabs">
+      <button role="tab" data-tab="auvergne" aria-selected="true">Auvergne</button>
+      <button role="tab" data-tab="groupes" aria-selected="false">Groupes</button>
+      <button role="tab" data-tab="favoris" aria-selected="false">Favoris</button>
+      <button role="tab" data-tab="recherche" aria-selected="false">Recherche</button>
+      <button role="tab" data-tab="reveil" aria-selected="false">Réveil</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="sandbox" id="sandbox" hidden><b>La radio ne peut pas jouer ici.</b> Cette fenêtre d'aperçu bloque les flux audio. Télécharge le fichier puis ouvre-le dans Safari, ou utilise l'adresse web de l'app.</div>
+  <section class="view" id="v-auvergne"></section>
+  <section class="view" id="v-groupes" hidden></section>
+  <section class="view" id="v-favoris" hidden></section>
+  <section class="view" id="v-recherche" hidden>
+    <div>
+      <div class="sec-head"><h2>Chercher une radio</h2><small>Annuaire mondial Radio Browser</small></div>
+      <form class="search-row" id="search-form">
+        <input type="search" id="search-q" placeholder="Ex. : Radio Coquelicot, Jordanne FM, RTL2…" autocomplete="off">
+        <button class="btn" type="submit">Chercher</button>
+      </form>
+    </div>
+    <div id="search-results"></div>
+  </section>
+  <section class="view" id="v-reveil" hidden>
+    <div>
+      <div class="sec-head"><h2>Réveil radio</h2></div>
+      <p class="note">À l'heure choisie, la radio démarre sur l'appareil qui a cette page ouverte, donc sur ton HomePod si tu l'as choisi en AirPlay.</p>
+    </div>
+    <div id="alarm-armed" class="armed" hidden></div>
+    <form class="panel" id="alarm-form">
+      <label class="f" for="alarm-time">Heure
+        <input type="time" id="alarm-time" value="07:00" required>
+      </label>
+      <label class="f" for="alarm-station">Radio
+        <select id="alarm-station"></select>
+      </label>
+      <div class="f" style="display:grid;gap:6px;font-weight:600;font-size:13px">Jours <span style="font-weight:400;color:var(--muted)">(aucun jour coché = une seule fois)</span>
+        <div class="days" id="alarm-days"></div>
+      </div>
+      <label class="chk" id="fade-row"><input type="checkbox" id="alarm-fade" checked> Monter le son progressivement (2 min)</label>
+      <button class="btn sage" type="submit">Armer le réveil</button>
+    </form>
+    <ol class="tips">
+      <li>Lance une radio, appuie sur le bouton AirPlay de la barre du bas et choisis ton HomePod, puis arme le réveil.</li>
+      <li>Laisse la page ouverte et l'appareil branché. L'écran reste allumé tant que le réveil est armé.</li>
+      <li>Combo du soir : arme le réveil, lance une radio et règle le minuteur de sommeil. La radio s'arrête à l'heure prévue et le réveil reste actif.</li>
+      <li>Le plus fiable : un iPad ou un Mac posé près du HomePod. Sur iPhone, iOS peut couper la page si tu verrouilles l'écran.</li>
+    </ol>
+  </section>
+</main>
+
+<div class="player" id="player">
+  <div class="in">
+    <div class="badge" id="p-badge">JL</div>
+    <div class="meta">
+      <div class="pn" id="p-name">Choisis une radio</div>
+      <div class="ps" id="p-status">Touchez une station pour l'écouter</div>
+    </div>
+    <button class="pbtn hide-s" id="p-prev" aria-label="Station précédente"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zM9.5 12 18 6v12z"/></svg></button>
+    <button class="pbtn main" id="p-play" aria-label="Lecture"><svg viewBox="0 0 24 24" fill="currentColor" id="p-icon"><path d="M8 5v14l11-7z"/></svg></button>
+    <button class="pbtn hide-s" id="p-next" aria-label="Station suivante"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg></button>
+    <input type="range" class="vol hide-s" id="p-vol" min="0" max="1" step="0.01" value="1" aria-label="Volume">
+    <button class="pbtn" id="p-sleep" aria-label="Minuteur de sommeil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
+    <button class="pbtn" id="p-airplay" aria-label="AirPlay" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"/><path d="m12 15 5 6H7z"/></svg></button>
+  </div>
+</div>
+
+<div class="sheet-bg" id="sleep-sheet" hidden>
+  <div class="sheet" role="dialog" aria-labelledby="sleep-title">
+    <h3 id="sleep-title">Minuteur de sommeil</h3>
+    <div class="opts" id="sleep-opts"></div>
+    <button class="btn ghost" id="sleep-cancel">Désactiver le minuteur</button>
+    <button class="btn" id="sleep-close">Fermer</button>
+  </div>
+</div>
+
+<div class="wake" id="wake" hidden>
+  <div>
+    <div class="big" id="wake-time">07:00</div>
+    <div id="wake-name" style="font-size:18px;margin-top:6px"></div>
+    <button class="btn" id="wake-go">Lancer la radio</button>
+  </div>
+</div>
+
+<audio id="audio" preload="none" x-webkit-airplay="allow" playsinline></audio>
+
+<script>
+(function(){
+"use strict";
+/* ---------- Données ---------- */
+var LQ="?listen=webCwsBCggNCQgLDQUGBAcGBg";
+var NRJ="https://streaming.nrjaudio.fm/";
+var RF="https://icecast.radiofrance.fr/";
+var GROUP_COLORS={nrj:"--g-nrj",rf:"--g-rf",m6:"--g-m6",lag:"--g-lag",rmc:"--g-rmc",ind:"--g-ind",loc:"--g-loc",perso:"--g-perso"};
+// f = fréquence FM à Clermont-Ferrand ; urls = flux connus ; q = nom pour la recherche de secours
+var STATIONS=[
+ {id:"cherie-auv",n:"Chérie FM Auvergne",ab:"Ché",g:"nrj",f:100.8,city:"Clermont",urls:[NRJ+"oufx8etx4thg"],q:"Cherie FM",mine:true},
+ {id:"cherie-vichy",n:"Chérie FM Vichy",ab:"Ché",g:"nrj",city:"Vichy",urls:[NRJ+"ouamejw2dqao"],q:"Cherie FM",mine:true},
+ {id:"cherie-issoire",n:"Chérie FM Issoire",ab:"Ché",g:"nrj",city:"Issoire",urls:[NRJ+"ouvfwkoarp52"],q:"Cherie FM",mine:true},
+ {id:"cherie",n:"Chérie FM (national)",ab:"Ché",g:"nrj",urls:[NRJ+"ouuku85n3nje"],q:"Cherie FM"},
+ {id:"nrj-clermont",n:"NRJ Clermont",ab:"NRJ",g:"nrj",f:101.2,city:"Clermont",urls:[NRJ+"oumrck8fnozc"],q:"NRJ"},
+ {id:"nrj",n:"NRJ (national)",ab:"NRJ",g:"nrj",urls:[NRJ+"oumvmk8fnozc"],q:"NRJ"},
+ {id:"nostalgie-clermont",n:"Nostalgie Clermont",ab:"Nost",g:"nrj",f:87.7,city:"Clermont",urls:[NRJ+"ou5knjirv93h"],q:"Nostalgie"},
+ {id:"nostalgie",n:"Nostalgie (national)",ab:"Nost",g:"nrj",urls:[NRJ+"oug7girb92oc"],q:"Nostalgie"},
+ {id:"rire",n:"Rire & Chansons",ab:"R&C",g:"nrj",f:95.0,urls:[],q:"Rire et Chansons"},
+
+ {id:"inter",n:"France Inter",ab:"Inter",g:"rf",f:90.4,urls:[RF+"franceinter-midfi.mp3"],q:"France Inter"},
+ {id:"franceinfo",n:"franceinfo",ab:"Info",g:"rf",f:105.5,urls:[RF+"franceinfo-midfi.mp3"],q:"franceinfo"},
+ {id:"culture",n:"France Culture",ab:"Cult",g:"rf",f:98.4,urls:[RF+"franceculture-midfi.mp3"],q:"France Culture"},
+ {id:"musique",n:"France Musique",ab:"Mus",g:"rf",f:95.5,urls:[RF+"francemusique-midfi.mp3"],q:"France Musique"},
+ {id:"mouv",n:"Mouv'",ab:"Mouv",g:"rf",f:97.5,urls:[RF+"mouv-midfi.mp3"],q:"Mouv"},
+ {id:"fip",n:"FIP",ab:"FIP",g:"rf",urls:[RF+"fip-midfi.mp3"],q:"FIP"},
+ {id:"ici-auvergne",n:"ici Pays d'Auvergne",ab:"ici",g:"rf",f:102.5,city:"ex-France Bleu",urls:[RF+"fbpaysdauvergne-midfi.mp3"],q:"France Bleu Pays d'Auvergne"},
+
+ {id:"rtl",n:"RTL",ab:"RTL",g:"m6",f:104.3,urls:["https://icecast.rtl.fr/rtl-1-44-128"+LQ,"https://streaming.radio.rtl.fr/rtl-1-44-128"+LQ],q:"RTL"},
+ {id:"rtl2",n:"RTL2",ab:"RTL2",g:"m6",f:105.9,urls:["https://icecast.rtl2.fr/rtl2-1-44-128"+LQ,"https://icecast.rtl.fr/rtl2-1-44-128"+LQ],q:"RTL2"},
+ {id:"fun",n:"Fun Radio",ab:"Fun",g:"m6",f:96.6,urls:["https://icecast.funradio.fr/fun-1-44-128"+LQ,"https://icecast.rtl.fr/fun-1-44-128"+LQ],q:"Fun Radio"},
+
+ {id:"europe1",n:"Europe 1",ab:"E1",g:"lag",f:104.7,urls:["https://europe1.lmn.fm/europe1.mp3","https://stream.europe1.fr/europe1.mp3"],q:"Europe 1"},
+ {id:"europe2",n:"Europe 2",ab:"E2",g:"lag",f:89.6,urls:["https://europe2.lmn.fm/europe2.mp3"],q:"Europe 2"},
+ {id:"rfm",n:"RFM",ab:"RFM",g:"lag",f:106.4,urls:["https://rfm.lmn.fm/rfm.mp3","https://stream.rfm.fr/rfm.mp3"],q:"RFM"},
+
+ {id:"rmc",n:"RMC",ab:"RMC",g:"rmc",f:105.1,urls:["https://audio.bfmtv.com/rmcradio_128.mp3"],q:"RMC"},
+ {id:"bfmbiz",n:"BFM Business",ab:"BFM",g:"rmc",f:107.0,urls:["https://audio.bfmtv.com/bfmbusiness_128.mp3"],q:"BFM Business"},
+
+ {id:"skyrock",n:"Skyrock",ab:"Sky",g:"ind",f:96.2,urls:["https://icecast.skyrock.net/s/natio_mp3_128k"],q:"Skyrock"},
+ {id:"nova",n:"Radio Nova",ab:"Nova",g:"ind",f:102.9,urls:["https://novazz.ice.infomaniak.ch/novazz-128.mp3"],q:"Radio Nova"},
+ {id:"classique",n:"Radio Classique",ab:"Class",g:"ind",f:92.6,urls:["https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3"],q:"Radio Classique"},
+ {id:"sud",n:"Sud Radio",ab:"Sud",g:"ind",f:88.1,urls:["https://start-sud.ice.infomaniak.ch/start-sud-high.mp3"],q:"Sud Radio"},
+ {id:"jazz",n:"Jazz Radio",ab:"Jazz",g:"ind",f:99.4,urls:["https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3"],q:"Jazz Radio"},
+ {id:"mradio",n:"M Radio",ab:"M",g:"ind",f:94.4,urls:["https://mfm.ice.infomaniak.ch/mfm-128.mp3"],q:"M Radio"},
+ {id:"fg",n:"Radio FG",ab:"FG",g:"ind",f:88.8,urls:["https://radiofg.impek.com/fg"],q:"Radio FG"},
+ {id:"scoop",n:"Radio Scoop Clermont",ab:"Scoop",g:"ind",f:98.8,city:"Clermont",urls:["https://radioscoopclermont-ferrand.ice.infomaniak.ch/radioscoop-clermont-128.mp3"],q:"Radio Scoop"},
+
+ {id:"arverne",n:"Radio Arverne",ab:"Arv",g:"loc",f:100.2,city:"Clermont",urls:[],q:"Radio Arverne"},
+ {id:"variance",n:"Variance FM",ab:"Var",g:"loc",f:103.7,urls:[],q:"Variance FM"},
+ {id:"fusion",n:"Fusion FM",ab:"Fus",g:"loc",f:94.0,urls:[],q:"Fusion FM"},
+ {id:"campus",n:"Radio Campus Clermont",ab:"Camp",g:"loc",f:93.3,urls:[],q:"Radio Campus Clermont"},
+ {id:"rcf63",n:"RCF Puy-de-Dôme",ab:"RCF",g:"loc",f:91.6,urls:[],q:"RCF Puy-de-Dome"},
+ {id:"altitude",n:"Radio Altitude",ab:"Alt",g:"loc",f:97.0,urls:[],q:"Radio Altitude"},
+ {id:"onde",n:"L'Onde Porteuse",ab:"Onde",g:"loc",f:98.0,urls:[],q:"Onde Porteuse"},
+ {id:"rva",n:"RVA",ab:"RVA",g:"loc",f:92.0,urls:[],q:"RVA Clermont"},
+ {id:"logos",n:"Logos FM",ab:"Logos",g:"loc",f:101.6,urls:[],q:"Logos FM"},
+ {id:"esperance",n:"Radio Espérance",ab:"Esp",g:"loc",f:91.2,urls:[],q:"Radio Esperance"}
+];
+var AUVERGNE=[
+ {t:"Mon antenne",note:"Les trois décrochages locaux de Chérie FM en Auvergne.",ids:["cherie-auv","cherie-vichy","cherie-issoire"]},
+ {t:"Groupe NRJ à Clermont",ids:["nrj-clermont","nostalgie-clermont","rire"]},
+ {t:"Concurrence locale",note:"Radios auvergnates et programmes locaux captés à Clermont-Ferrand.",ids:["ici-auvergne","scoop","arverne","variance","fusion","campus","rcf63","altitude","onde","rva","logos","esperance"]},
+ {t:"Réseaux musicaux captés à Clermont",note:"Concurrents directs en FM. Le flux internet est le programme national, sans les décrochages locaux.",ids:["fun","rfm","europe2","rtl2","skyrock","mradio","nova","jazz","fg"]}
+];
+var GROUPES=[
+ {t:"Groupe NRJ",ids:["cherie-auv","cherie","nrj-clermont","nrj","nostalgie-clermont","nostalgie","rire"]},
+ {t:"Radio France",ids:["inter","franceinfo","ici-auvergne","culture","musique","mouv","fip"]},
+ {t:"Groupe M6",ids:["rtl","rtl2","fun"]},
+ {t:"Lagardère",ids:["europe1","europe2","rfm"]},
+ {t:"RMC BFM",ids:["rmc","bfmbiz"]},
+ {t:"Indépendants et autres groupes",ids:["skyrock","nova","classique","sud","jazz","mradio","fg","scoop"]}
+];
+
+/* ---------- Stockage local (facultatif) ---------- */
+function load(k,d){try{var v=localStorage.getItem("radiojl:"+k);return v?JSON.parse(v):d}catch(e){return d}}
+function save(k,v){try{localStorage.setItem("radiojl:"+k,JSON.stringify(v))}catch(e){}}
+var favs=load("favs",["cherie-auv","cherie","ici-auvergne","franceinfo","rtl"]);
+var custom=load("custom",[]);
+var found=load("found",{});      // flux de secours trouvés
+var alarmCfg=load("alarm",{time:"07:00",station:"cherie-auv",days:[1,2,3,4,5],fade:true});
+var lastId=load("last",null);
+
+function byId(id){for(var i=0;i<STATIONS.length;i++)if(STATIONS[i].id===id)return STATIONS[i];for(var j=0;j<custom.length;j++)if(custom[j].id===id)return custom[j];return null}
+var isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+
+/* ---------- Rendu ---------- */
+var STAR='<svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>';
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function badgeHTML(s){
+  if(s.logo)return '<img src="'+esc(s.logo)+'" alt="" onerror="this.replaceWith(document.createTextNode(\''+esc(s.ab||"").replace(/'/g,"")+'\'))">';
+  return esc(s.ab||s.n.slice(0,3));
+}
+function badgeStyle(s){return "background:var("+(GROUP_COLORS[s.g]||"--g-perso")+")"}
+function card(s,listKey){
+  var sub=[];if(s.f)sub.push(s.f.toFixed(1));if(s.city)sub.push(s.city);if(!sub.length)sub.push(s.tag||"web");
+  return '<div class="card'+(cur===s.id?" playing":"")+'" role="button" tabindex="0" data-id="'+s.id+'" data-list="'+listKey+'">'+
+   '<div class="badge" style="'+badgeStyle(s)+'">'+badgeHTML(s)+'</div>'+
+   '<div class="txt"><div class="name">'+esc(s.n)+'</div><div class="sub">'+esc(sub.join(" · "))+'</div><div class="eq"><i></i><i></i><i></i></div></div>'+
+   '<button class="star'+(favs.indexOf(s.id)>-1?" on":"")+'" data-fav="'+s.id+'" aria-label="Favori">'+STAR+'</button></div>';
+}
+var LISTS={};
+function block(title,ids,key,note){
+  LISTS[key]=ids;
+  var h='<div><div class="sec-head"><h2>'+esc(title)+'</h2><small>'+ids.length+' station'+(ids.length>1?"s":"")+'</small></div>';
+  if(note)h+='<p class="note">'+esc(note)+'</p>';
+  h+='<div class="grid">'+ids.map(function(id){var s=byId(id);return s?card(s,key):""}).join("")+'</div></div>';
+  return h;
+}
+function dialHTML(){
+  var W=1500,min=87.5,max=108,pad=30;
+  function x(f){return pad+(f-min)/(max-min)*(W-2*pad)}
+  var h='<div class="dial-box"><div class="readout"><div class="ro-main"><span class="ro-f" id="ro-f">100.8</span><span class="ro-u">MHz</span></div><div class="ro-side"><div class="ro-n" id="ro-n">FM Clermont-Ferrand</div><div class="ro-s" id="ro-s">Choisis une fréquence</div></div></div><div class="dial-scroll" id="dial-scroll"><div class="dial" style="width:'+W+'px">';
+  for(var f=88;f<=108.001;f+=0.5){var maj=Math.abs(f-Math.round(f))<.01;h+='<div class="tick'+(maj?" maj":"")+'" style="left:'+x(f)+'px;height:'+(maj?14:7)+'px"></div>';if(maj&&Math.round(f)%2===0)h+='<div class="lbl" style="left:'+x(f)+'px">'+Math.round(f)+'</div>'}
+  var withF=STATIONS.filter(function(s){return s.f}).sort(function(a,b){return a.f-b.f});
+  LISTS.dial=withF.map(function(s){return s.id});
+  var rows=[-1e9,-1e9,-1e9,-1e9];
+  withF.forEach(function(s){
+    var px=x(s.f),w=s.n.length*6.6+16,r=0;
+    for(var i=0;i<rows.length;i++){if(px-w/2>rows[i]+6){r=i;break}r=(i+1)%rows.length}
+    rows[r]=px+w/2;
+    var top=8+r*25,stem=150-22-top-20;
+    h+='<button class="st'+(s.mine?" mine":"")+(cur===s.id?" playing":"")+'" data-id="'+s.id+'" data-list="dial" style="left:'+px+'px;top:'+top+'px;--stem:'+stem+'px" title="'+s.f.toFixed(1)+' MHz">'+esc(s.n)+'</button>';
+  });
+  var c=byId(cur);h+='<div class="needle" id="needle" style="left:'+(c&&c.f?x(c.f):x(100.8))+'px"></div>';
+  return h+'</div></div></div>';
+}
+function renderAuvergne(){
+  var v=document.getElementById("v-auvergne");
+  v.innerHTML='<div>'+dialHTML()+'</div>'+AUVERGNE.map(function(b,i){return block(b.t,b.ids,"auv"+i,b.note)}).join("");
+  var sc=document.getElementById("dial-scroll");if(sc&&!renderAuvergne.done){sc.scrollLeft=(100.8-87.5)/20.5*1500-sc.clientWidth/2;renderAuvergne.done=1}
+}
+function renderGroupes(){document.getElementById("v-groupes").innerHTML=GROUPES.map(function(b,i){return block(b.t,b.ids,"grp"+i)}).join("")}
+function renderFavoris(){
+  var v=document.getElementById("v-favoris");
+  var ids=favs.filter(byId);
+  var h=ids.length?block("Mes favoris",ids,"fav","L'ordre suit l'ajout. Touche l'étoile pour retirer une station."):'<div class="empty">Aucun favori pour l\'instant. Touche l\'étoile d\'une station pour l\'ajouter ici.</div>';
+  if(custom.length)h+=block("Ajoutées depuis la recherche",custom.map(function(c){return c.id}),"custom");
+  v.innerHTML=h;
+}
+function renderAll(){renderAuvergne();renderGroupes();renderFavoris();refreshPlaying()}
+function refreshPlaying(){
+  document.querySelectorAll("[data-id]").forEach(function(el){el.classList.toggle("playing",el.getAttribute("data-id")===cur)});
+  var c=byId(cur),n=document.getElementById("needle");
+  if(n&&c&&c.f)n.style.left=(30+(c.f-87.5)/20.5*1440)+"px";
+  var rf=document.getElementById("ro-f"),rn=document.getElementById("ro-n"),rs=document.getElementById("ro-s");
+  if(rf&&c){rf.textContent=c.f?c.f.toFixed(1):"WEB";rn.textContent=c.n;rs.textContent=mode==="playing"?"● En direct":mode==="loading"?"Accord…":mode==="error"?"Pas de signal":"En pause";rs.className="ro-s"+(mode==="playing"?" live":"")}
+}
+
+/* ---------- Onglets ---------- */
+var tabs=document.getElementById("tabs");
+function showTab(t){
+  tabs.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-selected",b.getAttribute("data-tab")===t?"true":"false")});
+  document.querySelectorAll("section.view").forEach(function(s){s.hidden=s.id!=="v-"+t});
+  if(t==="favoris")renderFavoris();
+  save("tab",t);window.scrollTo(0,0);
+}
+tabs.addEventListener("click",function(e){var b=e.target.closest("button");if(b)showTab(b.getAttribute("data-tab"))});
+
+/* ---------- Lecteur ---------- */
+var audio=document.getElementById("audio");
+var cur=null,curList=null,token=0,mode="idle"; // idle | loading | playing | paused | error | silence
+var pStatus=document.getElementById("p-status"),pName=document.getElementById("p-name"),pBadge=document.getElementById("p-badge"),pIcon=document.getElementById("p-icon");
+var ICON_PLAY='<path d="M8 5v14l11-7z"/>',ICON_PAUSE='<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>';
+function setStatus(txt,kind){
+  pStatus.className="ps"+(kind==="err"?" err":"");
+  pStatus.innerHTML=(kind==="live"?'<span class="live"></span>':"")+esc(txt)+(sleepEnd?'<span class="sleep-chip" id="sleep-chip"></span>':"");
+  updateSleepChip();
+}
+function setIcon(){if(typeof refreshPlaying==='function')try{refreshPlaying()}catch(e){}
+pIcon.innerHTML=(mode==="playing"||mode==="loading")?ICON_PAUSE:ICON_PLAY}
+function https(u){return u.replace(/^http:\/\//i,"https://")}
+function uniq(a){var o=[];a.forEach(function(x){if(x&&o.indexOf(x)<0)o.push(x)});return o}
+
+function attempt(url,my){
+  return new Promise(function(res){
+    var done=false,t;
+    function fin(v){if(done)return;done=true;clearTimeout(t);audio.removeEventListener("playing",ok);audio.removeEventListener("error",ko);res(v)}
+    function ok(){fin("ok")} function ko(){fin("fail")}
+    audio.addEventListener("playing",ok);audio.addEventListener("error",ko);
+    t=setTimeout(function(){fin("fail")},10000);
+    audio.loop=false;audio.src=url;
+    var p=audio.play();
+    if(p&&p.catch)p.catch(function(e){if(e&&e.name==="NotAllowedError")fin("blocked");else if(e&&e.name!=="AbortError")fin("fail")});
+    if(my!==token)fin("cancel");
+  });
+}
+var RB_HOSTS=["de1","fi1","nl1","at1","de2"];
+function rbFetch(path){
+  var i=0;
+  function next(){
+    if(i>=RB_HOSTS.length)return Promise.reject(new Error("annuaire injoignable"));
+    var h=RB_HOSTS[i++];
+    return fetch("https://"+h+".api.radio-browser.info/json/"+path).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(next);
+  }
+  return next();
+}
+function rbSearchStation(s){
+  return rbFetch("stations/search?name="+encodeURIComponent(s.q)+"&countrycode=FR&hidebroken=true&order=votes&reverse=true&limit=8")
+    .then(function(list){return list.map(function(r){return r.url_resolved||r.url}).filter(Boolean)});
+}
+function play(id,listKey){
+  var s=byId(id);if(!s)return;
+  var my=++token;cur=id;if(listKey)curList=listKey;mode="loading";save("last",id);
+  pName.textContent=s.n;pBadge.setAttribute("style",badgeStyle(s));pBadge.innerHTML=badgeHTML(s);
+  setStatus("Connexion…");setIcon();refreshPlaying();mediaMeta(s);
+  var cands=uniq([found[id]].concat(s.urls||[])).map(https);
+  // la 1re tentative part immédiatement, dans le geste de l'utilisateur (exigence iOS)
+  return run(cands,0,false);
+  function run(list,i,fromSearch){
+    if(my!==token)return Promise.resolve();
+    if(i>=list.length){
+      if(fromSearch||!s.q)return failAll();
+      setStatus("Recherche d'un autre flux…");
+      return rbSearchStation(s).then(function(urls){
+        urls=uniq(urls.map(https)).filter(function(u){return list.indexOf(u)<0});
+        return run(urls,0,true);
+      },failAll);
+    }
+    return attempt(list[i],my).then(function(r){
+      if(my!==token||r==="cancel")return;
+      if(r==="ok"){mode="playing";setIcon();setStatus("En direct","live");if(fromSearch||i>0){found[id]=list[i];save("found",found)}return true}
+      if(r==="blocked"){mode="paused";setIcon();setStatus("Touchez ▶ pour lancer");return "blocked"}
+      return run(list,i+1,fromSearch);
+    });
+  }
+  function failAll(){if(my!==token)return;mode="error";setIcon();setStatus("Flux indisponible pour le moment","err");delete found[id];save("found",found);return false}
+}
+function toggle(){
+  if(!cur){var first=byId(lastId)?lastId:"cherie-auv";play(first,"auv0");return}
+  if(mode==="playing"||mode==="loading"){token++;audio.pause();mode="paused";setIcon();setStatus("En pause");if(alarmOn)startSilence()}
+  else play(cur);
+}
+function step(d){
+  var l=LISTS[curList]||LISTS.auv0;if(!l||!l.length)return;
+  var i=l.indexOf(cur);i=(i+d+l.length)%l.length;play(l[i]);
+}
+document.getElementById("p-play").onclick=toggle;
+document.getElementById("p-prev").onclick=function(){step(-1)};
+document.getElementById("p-next").onclick=function(){step(1)};
+audio.addEventListener("pause",function(){if(mode==="playing"){mode="paused";setIcon();setStatus("En pause")}});
+audio.addEventListener("playing",function(){if(mode==="paused"&&cur){mode="playing";setIcon();setStatus("En direct","live")}});
+audio.addEventListener("waiting",function(){if(mode==="playing")setStatus("Mise en mémoire…")});
+audio.addEventListener("stalled",function(){if(mode==="playing")setStatus("Réception instable…")});
+
+var vol=document.getElementById("p-vol");
+if(isIOS)vol.remove();else{vol.value=load("vol",1);audio.volume=+vol.value;vol.oninput=function(){audio.volume=+vol.value;save("vol",+vol.value)}}
+
+// AirPlay (Safari)
+var ap=document.getElementById("p-airplay");
+if(window.WebKitPlaybackTargetAvailabilityEvent){
+  audio.addEventListener("webkitplaybacktargetavailabilitychanged",function(e){ap.hidden=e.availability!=="available"});
+  audio.addEventListener("webkitcurrentplaybacktargetiswirelesschanged",function(){ap.classList.toggle("on",!!audio.webkitCurrentPlaybackTargetIsWireless)});
+  ap.onclick=function(){audio.webkitShowPlaybackTargetPicker()};
+}
+// Écran verrouillé / Centre de contrôle
+function mediaMeta(s){
+  if(!("mediaSession" in navigator))return;
+  try{navigator.mediaSession.metadata=new MediaMetadata({title:s.n,artist:"En direct",album:"Radio JL"})}catch(e){}
+}
+if("mediaSession" in navigator){
+  try{
+    navigator.mediaSession.setActionHandler("play",function(){if(mode!=="playing")toggle()});
+    navigator.mediaSession.setActionHandler("pause",function(){if(mode==="playing")toggle()});
+    navigator.mediaSession.setActionHandler("nexttrack",function(){step(1)});
+    navigator.mediaSession.setActionHandler("previoustrack",function(){step(-1)});
+  }catch(e){}
+}
+
+/* ---------- Clics sur les stations ---------- */
+document.addEventListener("click",function(e){
+  var fb=e.target.closest("[data-fav]");
+  if(fb){e.stopPropagation();var id=fb.getAttribute("data-fav"),i=favs.indexOf(id);if(i>-1)favs.splice(i,1);else favs.push(id);save("favs",favs);
+    document.querySelectorAll('[data-fav="'+id+'"]').forEach(function(b){b.classList.toggle("on",i<0)});
+    if(!document.getElementById("v-favoris").hidden)renderFavoris();return}
+  var c=e.target.closest("[data-id]");
+  if(c&&!e.target.closest(".res-actions")){var id2=c.getAttribute("data-id");if(id2===cur&&mode==="playing")return;play(id2,c.getAttribute("data-list"))}
+});
+document.addEventListener("keydown",function(e){if((e.key==="Enter"||e.key===" ")&&e.target.classList&&e.target.classList.contains("card")){e.preventDefault();e.target.click()}});
+
+/* ---------- Minuteur de sommeil ---------- */
+var sleepEnd=0,sleepTimer=null;
+var sheet=document.getElementById("sleep-sheet");
+[15,30,45,60,90,120].forEach(function(m){var b=document.createElement("button");b.textContent=m<60?m+" min":(m/60)+" h"+(m%60?" "+m%60:"");b.onclick=function(){setSleep(m)};document.getElementById("sleep-opts").appendChild(b)});
+document.getElementById("p-sleep").onclick=function(){sheet.hidden=false};
+document.getElementById("sleep-close").onclick=function(){sheet.hidden=true};
+sheet.addEventListener("click",function(e){if(e.target===sheet)sheet.hidden=true});
+document.getElementById("sleep-cancel").onclick=function(){sleepEnd=0;document.getElementById("p-sleep").classList.remove("on");sheet.hidden=true;refreshStatus()};
+function setSleep(m){sleepEnd=Date.now()+m*60000;document.getElementById("p-sleep").classList.add("on");sheet.hidden=true;refreshStatus()}
+function refreshStatus(){if(mode==="playing")setStatus("En direct","live");else if(mode==="paused")setStatus("En pause");else setStatus(pStatus.textContent.replace(/Arrêt.*$/,"").trim()||"Prêt")}
+function updateSleepChip(){var ch=document.getElementById("sleep-chip");if(!ch||!sleepEnd)return;var r=Math.max(0,sleepEnd-Date.now()),m=Math.ceil(r/60000);ch.textContent="arrêt dans "+m+" min"}
+function sleepFire(){
+  sleepEnd=0;document.getElementById("p-sleep").classList.remove("on");
+  fade(audio.volume,0,isIOS?0:20000,function(){
+    token++;audio.pause();mode="paused";setIcon();setStatus("Arrêtée par le minuteur");
+    if(!isIOS)audio.volume=+(vol&&vol.value||1);
+    if(alarmOn)startSilence();
+  });
+}
+function fade(from,to,ms,cb){
+  if(isIOS||!ms){cb&&cb();return}
+  var t0=Date.now();audio.volume=from;
+  var iv=setInterval(function(){var k=Math.min(1,(Date.now()-t0)/ms);audio.volume=from+(to-from)*k;if(k>=1){clearInterval(iv);cb&&cb()}},250);
+}
+
+/* ---------- Réveil ---------- */
+var alarmOn=false,lastFire="",wakeLock=null;
+var DAYS=[[1,"Lun"],[2,"Mar"],[3,"Mer"],[4,"Jeu"],[5,"Ven"],[6,"Sam"],[0,"Dim"]];
+var daysBox=document.getElementById("alarm-days");
+DAYS.forEach(function(d){var b=document.createElement("button");b.type="button";b.textContent=d[1];b.setAttribute("aria-pressed",alarmCfg.days.indexOf(d[0])>-1?"true":"false");b.onclick=function(){b.setAttribute("aria-pressed",b.getAttribute("aria-pressed")==="true"?"false":"true")};b.dataset.d=d[0];daysBox.appendChild(b)});
+var sel=document.getElementById("alarm-station");
+function fillSelect(){
+  var h="";
+  [{t:"Auvergne",ids:[].concat.apply([],AUVERGNE.map(function(b){return b.ids}))}].concat(GROUPES).concat(custom.length?[{t:"Mes ajouts",ids:custom.map(function(c){return c.id})}]:[]).forEach(function(g){
+    h+='<optgroup label="'+esc(g.t)+'">'+g.ids.map(function(id){var s=byId(id);return s?'<option value="'+id+'">'+esc(s.n)+'</option>':""}).join("")+'</optgroup>';
+  });
+  sel.innerHTML=h;sel.value=alarmCfg.station;
+}
+document.getElementById("alarm-time").value=alarmCfg.time;
+document.getElementById("alarm-fade").checked=alarmCfg.fade;
+if(isIOS)document.getElementById("fade-row").hidden=true;
+
+var SILENCE=(function(){
+  var sr=8000,n=sr,buf=new ArrayBuffer(44+n*2),v=new DataView(buf);
+  function w(o,s){for(var i=0;i<s.length;i++)v.setUint8(o+i,s.charCodeAt(i))}
+  w(0,"RIFF");v.setUint32(4,36+n*2,true);w(8,"WAVE");w(12,"fmt ");v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);
+  v.setUint32(24,sr,true);v.setUint32(28,sr*2,true);v.setUint16(32,2,true);v.setUint16(34,16,true);w(36,"data");v.setUint32(40,n*2,true);
+  return URL.createObjectURL(new Blob([buf],{type:"audio/wav"}));
+})();
+function startSilence(){token++;mode="silence";audio.loop=true;audio.src=SILENCE;var p=audio.play();if(p&&p.catch)p.catch(function(){});setIcon();setStatus("Réveil armé · en veille")}
+function requestWake(){if(!("wakeLock" in navigator))return;navigator.wakeLock.request("screen").then(function(l){wakeLock=l}).catch(function(){})}
+document.addEventListener("visibilitychange",function(){if(alarmOn&&document.visibilityState==="visible")requestWake()});
+
+document.getElementById("alarm-form").addEventListener("submit",function(e){
+  e.preventDefault();
+  alarmCfg={time:document.getElementById("alarm-time").value||"07:00",station:sel.value,
+    days:[].map.call(daysBox.querySelectorAll('[aria-pressed="true"]'),function(b){return +b.dataset.d}),
+    fade:document.getElementById("alarm-fade").checked};
+  save("alarm",alarmCfg);alarmOn=true;lastFire="";
+  if(mode!=="playing"&&mode!=="loading")startSilence(); // débloque l'audio pendant le geste
+  requestWake();renderArmed();
+});
+function nextAlarmLabel(){
+  var d=alarmCfg.days;if(!d.length)return "une seule fois";
+  if(d.length===7)return "tous les jours";
+  var wk=[1,2,3,4,5];if(d.length===5&&wk.every(function(x){return d.indexOf(x)>-1}))return "du lundi au vendredi";
+  return DAYS.filter(function(x){return d.indexOf(x[0])>-1}).map(function(x){return x[1]}).join(", ");
+}
+function renderArmed(){
+  var box=document.getElementById("alarm-armed"),form=document.getElementById("alarm-form");
+  box.hidden=!alarmOn;form.hidden=alarmOn;
+  if(!alarmOn)return;
+  var s=byId(alarmCfg.station);
+  box.innerHTML='<div style="font:500 11px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--sage-deep)">Réveil armé</div><div class="big">'+esc(alarmCfg.time)+'</div><div><b>'+esc(s?s.n:"")+'</b> · '+esc(nextAlarmLabel())+'</div><div style="font-size:13px;color:var(--muted)">'+(audio.webkitCurrentPlaybackTargetIsWireless?"Sortie : AirPlay actif":"Sortie : cet appareil (choisis le HomePod via AirPlay si besoin)")+'</div><div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><button class="btn ghost" id="alarm-off" type="button">Désarmer</button><button class="btn ghost" id="alarm-test" type="button">Tester maintenant</button></div>';
+  document.getElementById("alarm-off").onclick=function(){alarmOn=false;if(mode==="silence"){audio.pause();audio.loop=false;mode="idle";setIcon();setStatus("Réveil désarmé")}if(wakeLock){wakeLock.release().catch(function(){});wakeLock=null}renderArmed()};
+  document.getElementById("alarm-test").onclick=function(){fireAlarm(true)};
+}
+function fireAlarm(test){
+  var s=byId(alarmCfg.station);if(!s)return;
+  if(!test&&!alarmCfg.days.length)alarmOn=false;
+  var target=+(vol&&vol.value||1);
+  if(!isIOS&&alarmCfg.fade)audio.volume=0.05;
+  var p=play(s.id,"auv0");
+  Promise.resolve(p).then(function(r){
+    if(r==="blocked"){var w=document.getElementById("wake");document.getElementById("wake-time").textContent=alarmCfg.time;document.getElementById("wake-name").textContent=s.n;w.hidden=false}
+    else if(!isIOS&&alarmCfg.fade)fade(0.05,target,120000);
+    else if(!isIOS)audio.volume=target;
+  });
+  renderArmed();
+}
+document.getElementById("wake-go").onclick=function(){document.getElementById("wake").hidden=true;play(alarmCfg.station)};
+
+/* ---------- Horloge ---------- */
+function pad(n){return(n<10?"0":"")+n}
+setInterval(tick,1000);tick();
+function tick(){
+  var d=new Date(),hm=pad(d.getHours())+":"+pad(d.getMinutes());
+  document.getElementById("clock").textContent=hm;
+  if(sleepEnd){if(Date.now()>=sleepEnd)sleepFire();else updateSleepChip()}
+  if(alarmOn&&hm===alarmCfg.time){
+    var key=d.toDateString()+hm;
+    if(lastFire!==key&&(!alarmCfg.days.length||alarmCfg.days.indexOf(d.getDay())>-1)){lastFire=key;fireAlarm(false)}
+  }
+}
+
+/* ---------- Recherche ---------- */
+var resBox=document.getElementById("search-results"),results={};
+document.getElementById("search-form").addEventListener("submit",function(e){
+  e.preventDefault();var q=document.getElementById("search-q").value.trim();if(!q)return;
+  resBox.innerHTML='<div class="empty">Recherche de « '+esc(q)+' »…</div>';
+  rbFetch("stations/search?name="+encodeURIComponent(q)+"&hidebroken=true&order=votes&reverse=true&limit=30").then(function(list){
+    if(!list.length){resBox.innerHTML='<div class="empty">Aucune station trouvée. Essaie avec moins de mots, par exemple sans « radio ».</div>';return}
+    results={};var ids=[];
+    list.forEach(function(r){
+      var id="rb-"+r.stationuuid;if(results[id])return;
+      results[id]={id:id,n:r.name.trim(),ab:r.name.trim().slice(0,4),g:"perso",urls:[r.url_resolved||r.url],logo:r.favicon&&/^https:/.test(r.favicon)?r.favicon:"",tag:[r.countrycode,r.codec,r.bitrate?r.bitrate+"k":""].filter(Boolean).join(" · ")};
+      ids.push(id);
+    });
+    LISTS.search=ids;
+    resBox.innerHTML='<div class="grid">'+ids.map(function(id){var s=results[id];var inC=!!byId(id);
+      return card(s,"search").replace('</div></div><button','</div><div class="res-actions"><button class="mini" data-add="'+id+'">'+(inC?"Ajoutée":"Ajouter aux favoris")+'</button></div></div><button')}).join("")+'</div>';
+  }).catch(function(){resBox.innerHTML='<div class="empty">L\'annuaire Radio Browser ne répond pas. Vérifie la connexion puis réessaie.</div>'});
+});
+resBox.addEventListener("click",function(e){
+  var a=e.target.closest("[data-add]");if(!a)return;e.stopPropagation();
+  var id=a.getAttribute("data-add"),s=results[id];if(!s||byId(id))return;
+  custom.push(s);save("custom",custom);if(favs.indexOf(id)<0){favs.push(id);save("favs",favs)}a.textContent="Ajoutée";fillSelect();
+});
+// Les résultats de recherche sont jouables avant d'être ajoutés
+var _byId=byId;byId=function(id){return _byId(id)||results[id]||null};
+
+/* ---------- Démarrage ---------- */
+var framed=false;try{framed=window.self!==window.top}catch(e){framed=true}
+if(framed)document.getElementById("sandbox").hidden=false;
+renderAll();fillSelect();
+var t0=load("tab","auvergne");if(t0!=="auvergne"&&document.getElementById("v-"+t0))showTab(t0);
+if(byId(lastId)){var ls=byId(lastId);pName.textContent=ls.n;pBadge.setAttribute("style",badgeStyle(ls));pBadge.innerHTML=badgeHTML(ls);setStatus("Touchez ▶ pour reprendre");curList="auv0"}
+})();
+</script>
+</body>
+</html>
