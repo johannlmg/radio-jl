@@ -1,0 +1,321 @@
+[
+ {
+  "id": "cherie-auv",
+  "n": "Chérie FM Auvergne",
+  "q": "Cherie FM",
+  "urls": [
+   "https://streaming.nrjaudio.fm/oufx8etx4thg"
+  ]
+ },
+ {
+  "id": "cherie-vichy",
+  "n": "Chérie FM Vichy",
+  "q": "Cherie FM",
+  "urls": [
+   "https://streaming.nrjaudio.fm/ouamejw2dqao"
+  ]
+ },
+ {
+  "id": "cherie-issoire",
+  "n": "Chérie FM Issoire",
+  "q": "Cherie FM",
+  "urls": [
+   "https://streaming.nrjaudio.fm/ouvfwkoarp52"
+  ]
+ },
+ {
+  "id": "cherie",
+  "n": "Chérie FM (national)",
+  "q": "Cherie FM",
+  "urls": [
+   "https://streaming.nrjaudio.fm/ouuku85n3nje"
+  ]
+ },
+ {
+  "id": "nrj-clermont",
+  "n": "NRJ Clermont",
+  "q": "NRJ",
+  "urls": [
+   "https://streaming.nrjaudio.fm/oumrck8fnozc"
+  ]
+ },
+ {
+  "id": "nrj",
+  "n": "NRJ (national)",
+  "q": "NRJ",
+  "urls": [
+   "https://streaming.nrjaudio.fm/oumvmk8fnozc"
+  ]
+ },
+ {
+  "id": "nostalgie-clermont",
+  "n": "Nostalgie Clermont",
+  "q": "Nostalgie",
+  "urls": [
+   "https://streaming.nrjaudio.fm/ou5knjirv93h"
+  ]
+ },
+ {
+  "id": "nostalgie",
+  "n": "Nostalgie (national)",
+  "q": "Nostalgie",
+  "urls": [
+   "https://streaming.nrjaudio.fm/oug7girb92oc"
+  ]
+ },
+ {
+  "id": "rire",
+  "n": "Rire & Chansons",
+  "q": "Rire et Chansons",
+  "urls": []
+ },
+ {
+  "id": "inter",
+  "n": "France Inter",
+  "q": "France Inter",
+  "urls": [
+   "https://icecast.radiofrance.fr/franceinter-midfi.mp3"
+  ]
+ },
+ {
+  "id": "franceinfo",
+  "n": "franceinfo",
+  "q": "franceinfo",
+  "urls": [
+   "https://icecast.radiofrance.fr/franceinfo-midfi.mp3"
+  ]
+ },
+ {
+  "id": "culture",
+  "n": "France Culture",
+  "q": "France Culture",
+  "urls": [
+   "https://icecast.radiofrance.fr/franceculture-midfi.mp3"
+  ]
+ },
+ {
+  "id": "musique",
+  "n": "France Musique",
+  "q": "France Musique",
+  "urls": [
+   "https://icecast.radiofrance.fr/francemusique-midfi.mp3"
+  ]
+ },
+ {
+  "id": "mouv",
+  "n": "Mouv'",
+  "q": "Mouv",
+  "urls": [
+   "https://icecast.radiofrance.fr/mouv-midfi.mp3"
+  ]
+ },
+ {
+  "id": "fip",
+  "n": "FIP",
+  "q": "FIP",
+  "urls": [
+   "https://icecast.radiofrance.fr/fip-midfi.mp3"
+  ]
+ },
+ {
+  "id": "ici-auvergne",
+  "n": "ici Pays d'Auvergne",
+  "q": "France Bleu Pays d'Auvergne",
+  "urls": [
+   "https://icecast.radiofrance.fr/fbpaysdauvergne-midfi.mp3"
+  ]
+ },
+ {
+  "id": "rtl",
+  "n": "RTL",
+  "q": "RTL",
+  "urls": [
+   "https://icecast.rtl.fr/rtl-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+   "https://streaming.radio.rtl.fr/rtl-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg"
+  ]
+ },
+ {
+  "id": "rtl2",
+  "n": "RTL2",
+  "q": "RTL2",
+  "urls": [
+   "https://icecast.rtl2.fr/rtl2-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+   "https://icecast.rtl.fr/rtl2-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg"
+  ]
+ },
+ {
+  "id": "fun",
+  "n": "Fun Radio",
+  "q": "Fun Radio",
+  "urls": [
+   "https://icecast.funradio.fr/fun-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+   "https://icecast.rtl.fr/fun-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg"
+  ]
+ },
+ {
+  "id": "europe1",
+  "n": "Europe 1",
+  "q": "Europe 1",
+  "urls": [
+   "https://europe1.lmn.fm/europe1.mp3",
+   "https://stream.europe1.fr/europe1.mp3"
+  ]
+ },
+ {
+  "id": "europe2",
+  "n": "Europe 2",
+  "q": "Europe 2",
+  "urls": [
+   "https://europe2.lmn.fm/europe2.mp3"
+  ]
+ },
+ {
+  "id": "rfm",
+  "n": "RFM",
+  "q": "RFM",
+  "urls": [
+   "https://rfm.lmn.fm/rfm.mp3",
+   "https://stream.rfm.fr/rfm.mp3"
+  ]
+ },
+ {
+  "id": "rmc",
+  "n": "RMC",
+  "q": "RMC",
+  "urls": [
+   "https://audio.bfmtv.com/rmcradio_128.mp3"
+  ]
+ },
+ {
+  "id": "bfmbiz",
+  "n": "BFM Business",
+  "q": "BFM Business",
+  "urls": [
+   "https://audio.bfmtv.com/bfmbusiness_128.mp3"
+  ]
+ },
+ {
+  "id": "skyrock",
+  "n": "Skyrock",
+  "q": "Skyrock",
+  "urls": [
+   "https://icecast.skyrock.net/s/natio_mp3_128k"
+  ]
+ },
+ {
+  "id": "nova",
+  "n": "Radio Nova",
+  "q": "Radio Nova",
+  "urls": [
+   "https://novazz.ice.infomaniak.ch/novazz-128.mp3"
+  ]
+ },
+ {
+  "id": "classique",
+  "n": "Radio Classique",
+  "q": "Radio Classique",
+  "urls": [
+   "https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3"
+  ]
+ },
+ {
+  "id": "sud",
+  "n": "Sud Radio",
+  "q": "Sud Radio",
+  "urls": [
+   "https://start-sud.ice.infomaniak.ch/start-sud-high.mp3"
+  ]
+ },
+ {
+  "id": "jazz",
+  "n": "Jazz Radio",
+  "q": "Jazz Radio",
+  "urls": [
+   "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3"
+  ]
+ },
+ {
+  "id": "mradio",
+  "n": "M Radio",
+  "q": "M Radio",
+  "urls": [
+   "https://mfm.ice.infomaniak.ch/mfm-128.mp3"
+  ]
+ },
+ {
+  "id": "fg",
+  "n": "Radio FG",
+  "q": "Radio FG",
+  "urls": [
+   "https://radiofg.impek.com/fg"
+  ]
+ },
+ {
+  "id": "scoop",
+  "n": "Radio Scoop Clermont",
+  "q": "Radio Scoop",
+  "urls": [
+   "https://radioscoopclermont-ferrand.ice.infomaniak.ch/radioscoop-clermont-128.mp3"
+  ]
+ },
+ {
+  "id": "arverne",
+  "n": "Radio Arverne",
+  "q": "Radio Arverne",
+  "urls": []
+ },
+ {
+  "id": "variance",
+  "n": "Variance FM",
+  "q": "Variance FM",
+  "urls": []
+ },
+ {
+  "id": "fusion",
+  "n": "Fusion FM",
+  "q": "Fusion FM",
+  "urls": []
+ },
+ {
+  "id": "campus",
+  "n": "Radio Campus Clermont",
+  "q": "Radio Campus Clermont",
+  "urls": []
+ },
+ {
+  "id": "rcf63",
+  "n": "RCF Puy-de-Dôme",
+  "q": "RCF Puy-de-Dome",
+  "urls": []
+ },
+ {
+  "id": "altitude",
+  "n": "Radio Altitude",
+  "q": "Radio Altitude",
+  "urls": []
+ },
+ {
+  "id": "onde",
+  "n": "L'Onde Porteuse",
+  "q": "Onde Porteuse",
+  "urls": []
+ },
+ {
+  "id": "rva",
+  "n": "RVA",
+  "q": "RVA Clermont",
+  "urls": []
+ },
+ {
+  "id": "logos",
+  "n": "Logos FM",
+  "q": "Logos FM",
+  "urls": []
+ },
+ {
+  "id": "esperance",
+  "n": "Radio Espérance",
+  "q": "Radio Esperance",
+  "urls": []
+ }
+]
