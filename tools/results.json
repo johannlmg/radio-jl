@@ -1,0 +1,5851 @@
+{
+ "cherie-auv": {
+  "n": "Chérie FM Auvergne",
+  "known": [
+   {
+    "url": "https://streaming.nrjaudio.fm/oufx8etx4thg",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aacp",
+    "final": "https://streaming.nrjaudio.fm/oufx8etx4thg",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "cherie-vichy": {
+  "n": "Chérie FM Vichy",
+  "known": [
+   {
+    "url": "https://streaming.nrjaudio.fm/ouamejw2dqao",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aacp",
+    "final": "https://streaming.nrjaudio.fm/ouamejw2dqao",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "cherie-issoire": {
+  "n": "Chérie FM Issoire",
+  "known": [
+   {
+    "url": "https://streaming.nrjaudio.fm/ouvfwkoarp52",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aacp",
+    "final": "https://streaming.nrjaudio.fm/ouvfwkoarp52",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "cherie": {
+  "n": "Chérie FM (national)",
+  "known": [
+   {
+    "url": "https://streaming.nrjaudio.fm/ouuku85n3nje",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming.nrjaudio.fm/ouuku85n3nje",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "nrj-clermont": {
+  "n": "NRJ Clermont",
+  "known": [
+   {
+    "url": "https://streaming.nrjaudio.fm/oumrck8fnozc",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aacp",
+    "final": "https://streaming.nrjaudio.fm/oumrck8fnozc",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "nrj": {
+  "n": "NRJ (national)",
+  "known": [
+   {
+    "url": "https://streaming.nrjaudio.fm/oumvmk8fnozc",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming.nrjaudio.fm/oumvmk8fnozc",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "nostalgie-clermont": {
+  "n": "Nostalgie Clermont",
+  "known": [
+   {
+    "url": "https://streaming.nrjaudio.fm/ou5knjirv93h",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aacp",
+    "final": "https://streaming.nrjaudio.fm/ou5knjirv93h",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "nostalgie": {
+  "n": "Nostalgie (national)",
+  "known": [
+   {
+    "url": "https://streaming.nrjaudio.fm/oug7girb92oc",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming.nrjaudio.fm/oug7girb92oc",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "rire": {
+  "n": "Rire & Chansons",
+  "known": [
+   {
+    "url": "https://streaming.nrjaudio.fm/ou8o8xgk7oiu",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming.nrjaudio.fm/ou8o8xgk7oiu",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "inter": {
+  "n": "France Inter",
+  "known": [
+   {
+    "url": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "franceinfo": {
+  "n": "franceinfo",
+  "known": [
+   {
+    "url": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "culture": {
+  "n": "France Culture",
+  "known": [
+   {
+    "url": "https://icecast.radiofrance.fr/franceculture-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceculture-midfi.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "musique": {
+  "n": "France Musique",
+  "known": [
+   {
+    "url": "https://icecast.radiofrance.fr/francemusique-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/francemusique-midfi.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "mouv": {
+  "n": "Mouv'",
+  "known": [
+   {
+    "url": "https://icecast.radiofrance.fr/mouv-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/mouv-midfi.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "fip": {
+  "n": "FIP",
+  "known": [
+   {
+    "url": "https://icecast.radiofrance.fr/fip-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/fip-midfi.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "ici-auvergne": {
+  "n": "ici Pays d'Auvergne",
+  "known": [
+   {
+    "url": "https://icecast.radiofrance.fr/fbpaysdauvergne-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/fbpaysdauvergne-midfi.mp3",
+    "https": true
+   },
+   {
+    "url": "https://direct.francebleu.fr/live/fbpaysdauvergne-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/fbpaysdauvergne-midfi.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "rtl": {
+  "n": "RTL",
+  "known": [
+   {
+    "url": "https://icecast.rtl.fr/rtl-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming-ice.audiomeans.fr/rtl/feed-rtl-mp3-128?aw_0_1st.broadcast_type=streaming&aw_0_1st.source_type=external&aw_0_1st.platform=external&aw_0_1st.media_category=fm&aw_0_1st.station=rtl&aw_0_1st.program=rtl&listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "https": true
+   },
+   {
+    "url": "https://icecast.rtl.fr/rtl-1-44-128",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming-ice.audiomeans.fr/rtl/feed-rtl-mp3-128?aw_0_1st.broadcast_type=streaming&aw_0_1st.source_type=external&aw_0_1st.platform=external&aw_0_1st.media_category=fm&aw_0_1st.station=rtl&aw_0_1st.program=rtl",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "rtl2": {
+  "n": "RTL2",
+  "known": [
+   {
+    "url": "https://icecast.rtl2.fr/rtl2-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming-ice.audiomeans.fr/rtl/feed-rtl2-mp3-128?aw_0_1st.broadcast_type=streaming&aw_0_1st.source_type=external&aw_0_1st.platform=external&aw_0_1st.media_category=fm&aw_0_1st.station=rtl2&aw_0_1st.program=rtl2&listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "https": true
+   },
+   {
+    "url": "https://icecast.rtl.fr/rtl2-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming-ice.audiomeans.fr/rtl/feed-rtl2-mp3-128?aw_0_1st.broadcast_type=streaming&aw_0_1st.source_type=external&aw_0_1st.platform=external&aw_0_1st.media_category=fm&aw_0_1st.station=rtl&aw_0_1st.program=rtl2&listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "fun": {
+  "n": "Fun Radio",
+  "known": [
+   {
+    "url": "https://icecast.funradio.fr/fun-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming-ice.audiomeans.fr/rtl/feed-funradio-mp3-128?aw_0_1st.broadcast_type=streaming&aw_0_1st.source_type=external&aw_0_1st.platform=external&aw_0_1st.media_category=fm&aw_0_1st.station=fun&aw_0_1st.program=fun&listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "https": true
+   },
+   {
+    "url": "https://icecast.rtl.fr/fun-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://streaming-ice.audiomeans.fr/rtl/feed-funradio-mp3-128?aw_0_1st.broadcast_type=streaming&aw_0_1st.source_type=external&aw_0_1st.platform=external&aw_0_1st.media_category=fm&aw_0_1st.station=rtl&aw_0_1st.program=fun&listen=webCwsBCggNCQgLDQUGBAcGBg",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "europe1": {
+  "n": "Europe 1",
+  "known": [
+   {
+    "url": "https://europe1.lmn.fm/europe1.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://europe1.lmn.fm/europe1.mp3",
+    "https": true
+   },
+   {
+    "url": "https://stream.europe1.fr/europe1.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://europe1.lmn.fm/europe1.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "europe2": {
+  "n": "Europe 2",
+  "known": [
+   {
+    "url": "https://europe2.lmn.fm/europe2.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://europe2.lmn.fm/europe2.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "rfm": {
+  "n": "RFM",
+  "known": [
+   {
+    "url": "https://rfm.lmn.fm/rfm.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://rfm.lmn.fm/rfm.mp3",
+    "https": true
+   },
+   {
+    "url": "https://stream.rfm.fr/rfm.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://rfm.lmn.fm/rfm.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "rmc": {
+  "n": "RMC",
+  "known": [
+   {
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "bfmbiz": {
+  "n": "BFM Business",
+  "known": [
+   {
+    "url": "https://audio.bfmtv.com/bfmbusiness_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/bfmbusiness_128.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "skyrock": {
+  "n": "Skyrock",
+  "known": [
+   {
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "nova": {
+  "n": "Radio Nova",
+  "known": [
+   {
+    "url": "https://novazz.ice.infomaniak.ch/novazz-128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://novazz.ice.infomaniak.ch/novazz-128.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "classique": {
+  "n": "Radio Classique",
+  "known": [
+   {
+    "url": "https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3",
+    "https": true
+   },
+   {
+    "url": "https://str0.creacast.com/classique1",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://str0.creacast.com/classique1",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "sud": {
+  "n": "Sud Radio",
+  "known": [
+   {
+    "url": "https://start-sud.ice.infomaniak.ch/start-sud-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://start-sud.ice.infomaniak.ch/start-sud-high.mp3",
+    "https": true
+   },
+   {
+    "url": "https://ice.creacast.com/sudradio",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://ice.creacast.com/sudradio",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "jazz": {
+  "n": "Jazz Radio",
+  "known": [
+   {
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "mradio": {
+  "n": "M Radio",
+  "known": [
+   {
+    "url": "https://mfm.ice.infomaniak.ch/mfm-128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://mfm.ice.infomaniak.ch/mfm-128.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "fg": {
+  "n": "Radio FG",
+  "known": [
+   {
+    "url": "https://radiofg.impek.com/fg",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://n02-us.rcs.revma.com/7081n2b6p98uv?rj-ttl=5&rj-tok=AAABoQdhGFgABi1rMpm4KLtOYg",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "scoop": {
+  "n": "Radio Scoop Clermont",
+  "known": [
+   {
+    "url": "https://radioscoopclermont-ferrand.ice.infomaniak.ch/radioscoop-clermont-128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://radioscoopclermont-ferrand.ice.infomaniak.ch/radioscoop-clermont-128.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "arverne": {
+  "n": "Radio Arverne",
+  "known": [
+   {
+    "url": "https://radioarverne.ice.infomaniak.ch/arverne.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://radioarverne.ice.infomaniak.ch/arverne.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "variance": {
+  "n": "Variance FM",
+  "known": [
+   {
+    "url": "https://proxy-eu.webradio.tools/radio.variancefm.com:8290/variance",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://proxy-eu.webradio.tools/radio.variancefm.com:8290/variance",
+    "https": true
+   },
+   {
+    "url": "https://proxy-eu.webradio.tools/radio.variancefm.com:8000/variance",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://proxy-eu.webradio.tools/radio.variancefm.com:8000/variance",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "fusion": {
+  "n": "Fusion FM",
+  "known": [
+   {
+    "url": "https://fusionfm.ice.infomaniak.ch/fusionfm-192.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://fusionfm.ice.infomaniak.ch/fusionfm-192.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "campus": {
+  "n": "Radio Campus Clermont",
+  "known": [
+   {
+    "url": "https://live.radio-campus.org:8002/clermont-ferrand",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://live.radio-campus.org:8002/clermont-ferrand",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "rcf63": {
+  "n": "RCF Puy-de-Dôme",
+  "known": [
+   {
+    "url": "https://rcf.streamakaci.com/rcf63.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://rcf.streamakaci.com/rcf63.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "altitude": {
+  "n": "Radio Altitude",
+  "known": [],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "onde": {
+  "n": "L'Onde Porteuse",
+  "known": [],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "rva": {
+  "n": "RVA",
+  "known": [
+   {
+    "url": "https://rva.ice.infomaniak.ch/rva-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://rva.ice.infomaniak.ch/rva-high.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "logos": {
+  "n": "Logos FM",
+  "known": [],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ },
+ "esperance": {
+  "n": "Radio Espérance",
+  "known": [
+   {
+    "url": "https://esperance.streamakaci.com/esperance.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://esperance.streamakaci.com/esperance.mp3",
+    "https": true
+   }
+  ],
+  "alts": [
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 93255,
+    "url": "https://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "RFI Afrique",
+    "state": "",
+    "votes": 89193,
+    "url": "https://live02.rfi.fr/rfiafrique-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RMC FR",
+    "state": "",
+    "votes": 76567,
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio Blues",
+    "state": "",
+    "votes": 65463,
+    "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+    "https": true
+   },
+   {
+    "name": "France Info",
+    "state": "",
+    "votes": 60935,
+    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 60411,
+    "url": "https://direct.franceinter.fr/live/franceinter-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "RFI Monde",
+    "state": "Île-de-France",
+    "votes": 57818,
+    "url": "https://live02.rfi.fr/rfimonde-64.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "RFI-Afrique",
+    "state": "",
+    "votes": 55554,
+    "url": "https://live02.rfi.fr/rfiafrique-96k.mp3",
+    "ok": false,
+    "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+   },
+   {
+    "name": "France Culture",
+    "state": "",
+    "votes": 55454,
+    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/aac",
+    "final": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "https": true
+   },
+   {
+    "name": "France Inter",
+    "state": "",
+    "votes": 55303,
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://icecast.radiofrance.fr/franceinter-midfi.mp3",
+    "https": true
+   },
+   {
+    "name": "Skyrock",
+    "state": "",
+    "votes": 54816,
+    "url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg; charset=UTF-8",
+    "final": "https://icecast.skyrock.net/s/natio_mp3_128k",
+    "https": true
+   },
+   {
+    "name": "Jazz Radio",
+    "state": "",
+    "votes": 50682,
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "ok": true,
+    "status": 200,
+    "ct": "audio/mpeg",
+    "final": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+    "https": true
+   }
+  ]
+ }
+}
